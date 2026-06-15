@@ -63,7 +63,7 @@ export default async function ItemPage({
       </Button>
 
       <div className="flex flex-col gap-6 sm:flex-row sm:items-start">
-        <ItemThumbnail item={item} size={140} className="rounded-xl" />
+        <ItemThumbnail item={item} size={168} className="rounded-xl" />
 
         <div className="min-w-0 flex-1 space-y-3">
           <div className="flex flex-wrap items-center gap-2">

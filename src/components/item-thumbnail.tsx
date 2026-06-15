@@ -31,7 +31,7 @@ const RARITY_GLOW: Record<Rarity, string> = {
 
 export function ItemThumbnail({
   item,
-  size = 56,
+  size = 64,
   className,
 }: {
   item: Pick<LootItem, "image" | "name" | "category" | "rarity">;

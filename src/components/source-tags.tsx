@@ -11,11 +11,11 @@ export function SourceTags({ sources }: { sources: SourceTag[] }) {
           key={`${s.label}-${i}`}
           className="inline-flex flex-col rounded-md bg-secondary px-2 py-1 leading-tight"
         >
-          <span className="text-xs font-medium text-foreground">
+          <span className="text-sm font-medium text-foreground">
             {s.label}
           </span>
           {s.sub && (
-            <span className="text-[11px] text-muted-foreground">{s.sub}</span>
+            <span className="text-xs text-muted-foreground">{s.sub}</span>
           )}
         </span>
       ))}

@@ -157,7 +157,7 @@ export function LootTable({
           {items.map((item) => (
             <TableRow key={item.id} className="align-middle">
               {columns.map((col) => (
-                <TableCell key={col} className="py-3">
+                <TableCell key={col} className="py-4">
                   {renderCell(col, item)}
                 </TableCell>
               ))}
