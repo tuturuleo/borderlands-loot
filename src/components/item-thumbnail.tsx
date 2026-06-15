@@ -1,4 +1,3 @@
-import Image from "next/image";
 import {
   Bomb,
   HeartPulse,
@@ -8,7 +7,7 @@ import {
   UserCog,
   type LucideIcon,
 } from "lucide-react";
-import { cn } from "@/lib/utils";
+import { assetPath, cn } from "@/lib/utils";
 import type { Category, LootItem, Rarity } from "@/lib/types";
 
 const CATEGORY_ICON: Record<Category, LucideIcon> = {
@@ -50,11 +49,13 @@ export function ItemThumbnail({
       style={{ width: size, height: size }}
     >
       {item.image ? (
-        <Image
-          src={item.image}
+        // eslint-disable-next-line @next/next/no-img-element -- статика на подпути Pages, basePath ставим вручную
+        <img
+          src={assetPath(item.image)}
           alt={item.name}
           width={size * 2}
           height={size * 2}
+          loading="lazy"
           className="h-full w-full object-contain"
         />
       ) : (
