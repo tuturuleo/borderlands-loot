@@ -16,10 +16,13 @@ export function CategoryTabs({
     <nav className="flex flex-wrap justify-center gap-2">
       {CATEGORY_ORDER.map((cat) => {
         const isActive = cat === active;
+        const count = counts[cat] ?? 0;
+        const disabled = count === 0;
         return (
           <button
             key={cat}
             type="button"
+            disabled={disabled}
             onClick={() => onChange(cat)}
             aria-pressed={isActive}
             className={cn(
@@ -27,11 +30,13 @@ export function CategoryTabs({
               isActive
                 ? "border-border bg-secondary text-foreground shadow-sm"
                 : "border-transparent bg-card/40 text-muted-foreground hover:bg-card hover:text-foreground",
+              disabled &&
+                "cursor-not-allowed opacity-40 hover:bg-card/40 hover:text-muted-foreground",
             )}
           >
             {CATEGORY_LABEL[cat]}
             <span className="ml-1.5 text-xs text-muted-foreground/70">
-              {counts[cat] ?? 0}
+              {count}
             </span>
           </button>
         );

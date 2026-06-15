@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo } from "react";
+import { useEffect, useMemo } from "react";
 import {
   parseAsArrayOf,
   parseAsBoolean,
@@ -28,7 +28,6 @@ import {
   type SortField,
 } from "@/components/loot-table";
 import {
-  CATEGORY_LABEL,
   CATEGORY_ORDER,
   type Category,
   type ElementKey,
@@ -37,6 +36,7 @@ import {
 } from "@/lib/types";
 import {
   activeFilterCount,
+  searchItems,
   selectItems,
   type LootFilters,
 } from "@/lib/filter";
@@ -103,13 +103,24 @@ export function LootBrowser({ allItems }: { allItems: LootItem[] }) {
       ph: f.phospheneOnly,
     });
 
+  // Поиск глобальный: для каждой категории считаем число совпадений с запросом.
+  // Категория с 0 совпадений блокируется во вкладках.
   const categoryCounts = useMemo(() => {
     const c = Object.fromEntries(
       CATEGORY_ORDER.map((cat) => [cat, 0]),
     ) as Record<Category, number>;
-    for (const i of allItems) c[i.category]++;
+    const matched = searchItems(allItems, search);
+    for (const i of matched) c[i.category]++;
     return c;
-  }, [allItems]);
+  }, [allItems, search]);
+
+  // Если активная категория обнулилась поиском — прыгаем на первую непустую.
+  useEffect(() => {
+    if (categoryCounts[category] === 0) {
+      const next = CATEGORY_ORDER.find((c) => categoryCounts[c] > 0);
+      if (next) setCategory(next);
+    }
+  }, [categoryCounts, category, setCategory]);
 
   const forCategory = useMemo(
     () => allItems.filter((i) => i.category === category),
@@ -141,44 +152,40 @@ export function LootBrowser({ allItems }: { allItems: LootItem[] }) {
     setRaw(null);
   };
 
-  const label = CATEGORY_LABEL[category];
   const filterCount = activeFilterCount(filters);
 
   return (
     <div className="space-y-8">
-      <CategoryTabs
-        active={category}
-        counts={categoryCounts}
-        onChange={onCategoryChange}
-      />
+      {/* Название сайта — в самом верху */}
+      <p className="text-center text-2xl font-bold uppercase tracking-[0.2em] text-muted-foreground sm:text-3xl">
+        Borderlands 4 — База данных
+      </p>
 
-      <div className="space-y-3 text-center">
-        <p className="text-sm font-semibold uppercase tracking-[0.2em] text-muted-foreground">
-          Borderlands 4 — База данных
-        </p>
-        <h1 className="text-3xl font-bold sm:text-4xl">{label}</h1>
-      </div>
-
+      {/* Поиск по всем категориям сразу */}
       <div className="mx-auto w-full max-w-xl">
         <div className="relative">
           <Search className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" />
           <Input
             value={search}
             onChange={(e) => setSearch(e.target.value || null)}
-            placeholder={`Поиск: ${label}…`}
+            placeholder="Поиск по всем категориям…"
             className="h-11 rounded-full pl-9"
           />
         </div>
       </div>
 
-      <div className="flex items-center justify-center gap-3">
-        <span className="rounded-full bg-secondary px-4 py-1.5 text-sm text-muted-foreground">
-          {selected.length} из {forCategory.length} · {label}
-        </span>
-        {/* Кнопка фильтров для мобильных */}
+      {/* Вкладки категорий (пустые по текущему поиску — заблокированы) */}
+      <CategoryTabs
+        active={category}
+        counts={categoryCounts}
+        onChange={onCategoryChange}
+      />
+
+      {/* Кнопка фильтров для мобильных */}
+      <div className="flex justify-end lg:hidden">
         <Sheet>
           <SheetTrigger asChild>
-            <Button variant="outline" size="sm" className="lg:hidden">
+            <Button variant="outline" size="sm">
               <SlidersHorizontal className="size-4" />
               Фильтры
               {filterCount > 0 && (

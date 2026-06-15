@@ -1,4 +1,4 @@
-import { matchSorter } from "match-sorter";
+import { matchSorter, rankings } from "match-sorter";
 import type { ElementKey, LootItem, Rarity } from "./types";
 import type { SortDir, SortField } from "@/components/loot-table";
 
@@ -79,6 +79,17 @@ function compare(a: LootItem, b: LootItem, field: SortField): number {
   }
 }
 
+// Полнотекстовый (fuzzy) поиск по имени RU/EN и описанию. Пустой запрос — без фильтра.
+export function searchItems(source: LootItem[], query: string): LootItem[] {
+  const q = query.trim();
+  if (!q) return source;
+  // CONTAINS: матчим подстроку, а не символы вразброс (иначе fuzzy ловит всё подряд).
+  return matchSorter(source, q, {
+    keys: ["name", "nameEn", "feature"],
+    threshold: rankings.CONTAINS,
+  });
+}
+
 export function selectItems(
   source: LootItem[],
   opts: {
@@ -89,13 +100,7 @@ export function selectItems(
   },
 ): LootItem[] {
   const faceted = source.filter((i) => passesFilters(i, opts.filters));
-
-  const query = opts.search.trim();
-  const searched = query
-    ? matchSorter(faceted, query, {
-        keys: ["name", "nameEn", "feature"],
-      })
-    : faceted;
+  const searched = searchItems(faceted, opts.search);
 
   const sorted = [...searched].sort((a, b) => {
     const c = compare(a, b, opts.sortField);
