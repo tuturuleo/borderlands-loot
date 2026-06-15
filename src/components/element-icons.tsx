@@ -29,7 +29,7 @@ export function ElementIcons({ elements }: { elements: ElementKey[] }) {
   }
   const ordered = ELEMENT_ORDER.filter((e) => elements.includes(e));
   return (
-    <div className="flex flex-wrap gap-1">
+    <div className="flex flex-wrap gap-1 w-20">
       {ordered.map((e) => (
         <ElementBadge key={e} element={e} />
       ))}
