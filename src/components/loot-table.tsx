@@ -148,7 +148,7 @@ export function LootTable({
                 sortField={sortField}
                 sortDir={sortDir}
                 onSort={onSort}
-                className={col === "rarity" ? "w-[88px]" : undefined}
+                className={col === "rarity" ? "w-[120px]" : undefined}
               />
             ))}
           </TableRow>

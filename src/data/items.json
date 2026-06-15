@@ -36,7 +36,8 @@
     "worldDropDlcOnly": false,
     "phosphene": true,
     "lootlemonUrl": "https://www.lootlemon.com/weapon/star-helix-bl4",
-    "image": "/items/star-helix-bl4.avif"
+    "image": "/items/star-helix-bl4.avif",
+    "imageCard": "/items/star-helix-bl4-card.avif"
   },
   {
     "id": "2",
@@ -75,7 +76,8 @@
     "worldDropDlcOnly": false,
     "phosphene": true,
     "lootlemonUrl": "https://www.lootlemon.com/weapon/bloody-lumberjack-bl4",
-    "image": "/items/bloody-lumberjack-bl4.avif"
+    "image": "/items/bloody-lumberjack-bl4.avif",
+    "imageCard": "/items/bloody-lumberjack-bl4-card.avif"
   },
   {
     "id": "3",
@@ -114,7 +116,8 @@
     "worldDropDlcOnly": false,
     "phosphene": true,
     "lootlemonUrl": "https://www.lootlemon.com/weapon/oscar-mike-bl4",
-    "image": "/items/oscar-mike-bl4.avif"
+    "image": "/items/oscar-mike-bl4.avif",
+    "imageCard": "/items/oscar-mike-bl4-card.avif"
   },
   {
     "id": "4",
@@ -148,7 +151,8 @@
     "worldDropDlcOnly": false,
     "phosphene": true,
     "lootlemonUrl": "https://www.lootlemon.com/weapon/bonnie-and-clyde-bl4",
-    "image": "/items/bonnie-and-clyde-bl4.avif"
+    "image": "/items/bonnie-and-clyde-bl4.avif",
+    "imageCard": "/items/bonnie-and-clyde-bl4-card.avif"
   },
   {
     "id": "5",
@@ -182,7 +186,8 @@
     "worldDropDlcOnly": false,
     "phosphene": true,
     "lootlemonUrl": "https://www.lootlemon.com/weapon/rowans-charge-bl4",
-    "image": "/items/rowans-charge-bl4.avif"
+    "image": "/items/rowans-charge-bl4.avif",
+    "imageCard": "/items/rowans-charge-bl4-card.avif"
   },
   {
     "id": "6",
@@ -216,7 +221,8 @@
     "worldDropDlcOnly": false,
     "phosphene": true,
     "lootlemonUrl": "https://www.lootlemon.com/weapon/goalkeeper-bl4",
-    "image": "/items/goalkeeper-bl4.avif"
+    "image": "/items/goalkeeper-bl4.avif",
+    "imageCard": "/items/goalkeeper-bl4-card.avif"
   },
   {
     "id": "7",
@@ -249,8 +255,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": "http://lootlemon.com/weapon/gmr-bl4",
-    "image": "/items/gmr-bl4.avif"
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/gmr-bl4",
+    "image": "/items/gmr-bl4.avif",
+    "imageCard": "/items/gmr-bl4-card.avif"
   },
   {
     "id": "8",
@@ -284,7 +291,8 @@
     "worldDropDlcOnly": false,
     "phosphene": true,
     "lootlemonUrl": "https://www.lootlemon.com/weapon/divided-focus-bl4",
-    "image": "/items/divided-focus-bl4.avif"
+    "image": "/items/divided-focus-bl4.avif",
+    "imageCard": "/items/divided-focus-bl4-card.avif"
   },
   {
     "id": "9",
@@ -317,7 +325,8 @@
     "worldDropDlcOnly": false,
     "phosphene": true,
     "lootlemonUrl": "https://www.lootlemon.com/weapon/chuck-bl4",
-    "image": "/items/chuck-bl4.avif"
+    "image": "/items/chuck-bl4.avif",
+    "imageCard": "/items/chuck-bl4-card.avif"
   },
   {
     "id": "10",
@@ -350,7 +359,8 @@
     "worldDropDlcOnly": false,
     "phosphene": true,
     "lootlemonUrl": "https://www.lootlemon.com/weapon/bugbear-bl4",
-    "image": "/items/bugbear-bl4.avif"
+    "image": "/items/bugbear-bl4.avif",
+    "imageCard": "/items/bugbear-bl4-card.avif"
   },
   {
     "id": "11",
@@ -388,7 +398,8 @@
     "worldDropDlcOnly": false,
     "phosphene": true,
     "lootlemonUrl": "https://www.lootlemon.com/weapon/potato-thrower-iv-bl4",
-    "image": "/items/potato-thrower-iv-bl4.avif"
+    "image": "/items/potato-thrower-iv-bl4.avif",
+    "imageCard": "/items/potato-thrower-iv-bl4-card.avif"
   },
   {
     "id": "12",
@@ -421,7 +432,8 @@
     "worldDropDlcOnly": false,
     "phosphene": true,
     "lootlemonUrl": "https://www.lootlemon.com/weapon/cold-shoulder-bl4",
-    "image": "/items/cold-shoulder-bl4.avif"
+    "image": "/items/cold-shoulder-bl4.avif",
+    "imageCard": "/items/cold-shoulder-bl4-card.avif"
   },
   {
     "id": "13",
@@ -456,7 +468,8 @@
     "worldDropDlcOnly": false,
     "phosphene": true,
     "lootlemonUrl": "https://www.lootlemon.com/weapon/whiskey-foxtrot-bl4",
-    "image": "/items/whiskey-foxtrot-bl4.avif"
+    "image": "/items/whiskey-foxtrot-bl4.avif",
+    "imageCard": "/items/whiskey-foxtrot-bl4-card.avif"
   },
   {
     "id": "14",
@@ -494,7 +507,8 @@
     "worldDropDlcOnly": false,
     "phosphene": true,
     "lootlemonUrl": "https://www.lootlemon.com/weapon/wombo-combo-bl4",
-    "image": "/items/wombo-combo-bl4.avif"
+    "image": "/items/wombo-combo-bl4.avif",
+    "imageCard": "/items/wombo-combo-bl4-card.avif"
   },
   {
     "id": "15",
@@ -532,7 +546,8 @@
     "worldDropDlcOnly": false,
     "phosphene": true,
     "lootlemonUrl": "https://www.lootlemon.com/weapon/lucians-flank-bl4",
-    "image": "/items/lucians-flank-bl4.avif"
+    "image": "/items/lucians-flank-bl4.avif",
+    "imageCard": "/items/lucians-flank-bl4-card.avif"
   },
   {
     "id": "16",
@@ -567,7 +582,8 @@
     "worldDropDlcOnly": false,
     "phosphene": true,
     "lootlemonUrl": "https://www.lootlemon.com/weapon/aegons-dream-bl4",
-    "image": "/items/aegons-dream-bl4.avif"
+    "image": "/items/aegons-dream-bl4.avif",
+    "imageCard": "/items/aegons-dream-bl4-card.avif"
   },
   {
     "id": "17",
@@ -599,7 +615,8 @@
     "worldDropDlcOnly": false,
     "phosphene": false,
     "lootlemonUrl": "https://www.lootlemon.com/class-mod/shatterwight-amon-bl4",
-    "image": "/items/shatterwight-amon-bl4.avif"
+    "image": "/items/shatterwight-amon-bl4.avif",
+    "imageCard": "/items/shatterwight-amon-bl4-card.avif"
   },
   {
     "id": "18",
@@ -631,7 +648,8 @@
     "worldDropDlcOnly": false,
     "phosphene": false,
     "lootlemonUrl": "https://www.lootlemon.com/class-mod/viking-amon-bl4",
-    "image": "/items/viking-amon-bl4.avif"
+    "image": "/items/viking-amon-bl4.avif",
+    "imageCard": "/items/viking-amon-bl4-card.avif"
   },
   {
     "id": "19",
@@ -663,7 +681,8 @@
     "worldDropDlcOnly": false,
     "phosphene": false,
     "lootlemonUrl": "https://www.lootlemon.com/class-mod/forge-master-amon-bl4",
-    "image": "/items/forge-master-amon-bl4.avif"
+    "image": "/items/forge-master-amon-bl4.avif",
+    "imageCard": "/items/forge-master-amon-bl4-card.avif"
   },
   {
     "id": "20",
@@ -695,7 +714,8 @@
     "worldDropDlcOnly": false,
     "phosphene": false,
     "lootlemonUrl": "https://www.lootlemon.com/class-mod/blacksmith-amon-bl4",
-    "image": "/items/blacksmith-amon-bl4.avif"
+    "image": "/items/blacksmith-amon-bl4.avif",
+    "imageCard": "/items/blacksmith-amon-bl4-card.avif"
   },
   {
     "id": "21",
@@ -727,7 +747,8 @@
     "worldDropDlcOnly": false,
     "phosphene": false,
     "lootlemonUrl": "https://www.lootlemon.com/class-mod/elementalist-amon-bl4",
-    "image": "/items/elementalist-amon-bl4.avif"
+    "image": "/items/elementalist-amon-bl4.avif",
+    "imageCard": "/items/elementalist-amon-bl4-card.avif"
   },
   {
     "id": "22",
@@ -759,7 +780,8 @@
     "worldDropDlcOnly": false,
     "phosphene": false,
     "lootlemonUrl": "https://www.lootlemon.com/class-mod/furnace-amon-bl4",
-    "image": "/items/furnace-amon-bl4.avif"
+    "image": "/items/furnace-amon-bl4.avif",
+    "imageCard": "/items/furnace-amon-bl4-card.avif"
   },
   {
     "id": "23",
@@ -786,8 +808,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": "https://www.lootlemon.com/class-mod/furnace-amon-bl4",
-    "image": "/items/furnace-amon-bl4.avif"
+    "lootlemonUrl": "https://www.lootlemon.com/class-mod/lamplighter-amon-bl4",
+    "image": "/items/lamplighter-amon-bl4.avif",
+    "imageCard": "/items/lamplighter-amon-bl4-card.avif"
   },
   {
     "id": "24",
@@ -826,7 +849,8 @@
     "worldDropDlcOnly": false,
     "phosphene": false,
     "lootlemonUrl": "https://www.lootlemon.com/shield/oak-aged-cask-bl4",
-    "image": "/items/oak-aged-cask-bl4.avif"
+    "image": "/items/oak-aged-cask-bl4.avif",
+    "imageCard": "/items/oak-aged-cask-bl4-card.avif"
   },
   {
     "id": "25",
@@ -865,7 +889,8 @@
     "worldDropDlcOnly": false,
     "phosphene": false,
     "lootlemonUrl": "https://www.lootlemon.com/shield/onion-bl4",
-    "image": "/items/onion-bl4.avif"
+    "image": "/items/onion-bl4.avif",
+    "imageCard": "/items/onion-bl4-card.avif"
   },
   {
     "id": "26",
@@ -904,7 +929,8 @@
     "worldDropDlcOnly": false,
     "phosphene": false,
     "lootlemonUrl": "https://www.lootlemon.com/shield/principal-bl4",
-    "image": "/items/principal-bl4.avif"
+    "image": "/items/principal-bl4.avif",
+    "imageCard": "/items/principal-bl4-card.avif"
   },
   {
     "id": "27",
@@ -938,7 +964,8 @@
     "worldDropDlcOnly": false,
     "phosphene": false,
     "lootlemonUrl": "https://www.lootlemon.com/shield/timekeepers-new-shield-bl4",
-    "image": "/items/timekeepers-new-shield-bl4.avif"
+    "image": "/items/timekeepers-new-shield-bl4.avif",
+    "imageCard": "/items/timekeepers-new-shield-bl4-card.avif"
   },
   {
     "id": "28",
@@ -977,7 +1004,8 @@
     "worldDropDlcOnly": false,
     "phosphene": false,
     "lootlemonUrl": "https://www.lootlemon.com/shield/compleation-bl4",
-    "image": "/items/compleation-bl4.avif"
+    "image": "/items/compleation-bl4.avif",
+    "imageCard": "/items/compleation-bl4-card.avif"
   },
   {
     "id": "29",
@@ -1015,8 +1043,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/shield/firewerks-bl4",
+    "image": "/items/firewerks-bl4.avif",
+    "imageCard": "/items/firewerks-bl4-card.avif"
   },
   {
     "id": "30",
@@ -1054,8 +1083,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/shield/heavyweight-bl4",
+    "image": "/items/heavyweight-bl4.avif",
+    "imageCard": "/items/heavyweight-bl4-card.avif"
   },
   {
     "id": "31",
@@ -1093,8 +1123,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/shield/hoarder-bl4",
+    "image": "/items/hoarder-bl4.avif",
+    "imageCard": "/items/hoarder-bl4-card.avif"
   },
   {
     "id": "32",
@@ -1121,8 +1152,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/shield/undershield-bl4",
+    "image": "/items/undershield-bl4.avif",
+    "imageCard": "/items/undershield-bl4-card.avif"
   },
   {
     "id": "33",
@@ -1153,8 +1185,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/class-mod/avatar-vex-bl4",
+    "image": "/items/avatar-vex-bl4.avif",
+    "imageCard": "/items/avatar-vex-bl4-card.avif"
   },
   {
     "id": "34",
@@ -1185,8 +1218,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/class-mod/undead-eye-vex-bl4",
+    "image": "/items/undead-eye-vex-bl4.avif",
+    "imageCard": "/items/undead-eye-vex-bl4-card.avif"
   },
   {
     "id": "35",
@@ -1217,8 +1251,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/class-mod/illusionist-vex-bl4",
+    "image": "/items/illusionist-vex-bl4.avif",
+    "imageCard": "/items/illusionist-vex-bl4-card.avif"
   },
   {
     "id": "36",
@@ -1249,8 +1284,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/class-mod/technomancer-vex-bl4",
+    "image": "/items/technomancer-vex-bl4.avif",
+    "imageCard": "/items/technomancer-vex-bl4-card.avif"
   },
   {
     "id": "37",
@@ -1281,8 +1317,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/class-mod/teen-witch-vex-bl4",
+    "image": "/items/teen-witch-vex-bl4.avif",
+    "imageCard": "/items/teen-witch-vex-bl4-card.avif"
   },
   {
     "id": "38",
@@ -1313,8 +1350,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/class-mod/kindread-spirits-vex-bl4",
+    "image": "/items/kindread-spirits-vex-bl4.avif",
+    "imageCard": "/items/kindread-spirits-vex-bl4-card.avif"
   },
   {
     "id": "39",
@@ -1341,8 +1379,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/class-mod/misericorde-vex-bl4",
+    "image": "/items/misericorde-vex-bl4.avif",
+    "imageCard": "/items/misericorde-vex-bl4-card.avif"
   },
   {
     "id": "40",
@@ -1380,8 +1419,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/grenade-mod/fuse-bl4",
+    "image": "/items/fuse-bl4.avif",
+    "imageCard": "/items/fuse-bl4-card.avif"
   },
   {
     "id": "41",
@@ -1418,8 +1458,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/grenade-mod/destructo-disco-bl4",
+    "image": "/items/destructo-disco-bl4.avif",
+    "imageCard": "/items/destructo-disco-bl4-card.avif"
   },
   {
     "id": "42",
@@ -1456,8 +1497,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/grenade-mod/recursive-bl4",
+    "image": "/items/recursive-bl4.avif",
+    "imageCard": "/items/recursive-bl4-card.avif"
   },
   {
     "id": "43",
@@ -1490,8 +1532,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/grenade-mod/swarm-bl4",
+    "image": "/items/swarm-bl4.avif",
+    "imageCard": "/items/swarm-bl4-card.avif"
   },
   {
     "id": "44",
@@ -1524,8 +1567,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/grenade-mod/chaumurky-bl4",
+    "image": "/items/chaumurky-bl4.avif",
+    "imageCard": "/items/chaumurky-bl4-card.avif"
   },
   {
     "id": "45",
@@ -1563,8 +1607,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/grenade-mod/buoy-bl4",
+    "image": "/items/buoy-bl4.avif",
+    "imageCard": "/items/buoy-bl4-card.avif"
   },
   {
     "id": "46",
@@ -1601,8 +1646,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/grenade-mod/jelly-bl4",
+    "image": "/items/jelly-bl4.avif",
+    "imageCard": "/items/jelly-bl4-card.avif"
   },
   {
     "id": "47",
@@ -1640,8 +1686,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/grenade-mod/uav-bl4",
+    "image": "/items/uav-bl4.avif",
+    "imageCard": "/items/uav-bl4-card.avif"
   },
   {
     "id": "48",
@@ -1675,8 +1722,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/grenade-mod/urchin-bl4",
+    "image": "/items/urchin-bl4.avif",
+    "imageCard": "/items/urchin-bl4-card.avif"
   },
   {
     "id": "49",
@@ -1714,8 +1762,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/grenade-mod/faulty-detonator-bl4",
+    "image": "/items/faulty-detonator-bl4.avif",
+    "imageCard": "/items/faulty-detonator-bl4-card.avif"
   },
   {
     "id": "50",
@@ -1748,8 +1797,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/grenade-mod/firepot-bl4",
+    "image": "/items/firepot-bl4.avif",
+    "imageCard": "/items/firepot-bl4-card.avif"
   },
   {
     "id": "51",
@@ -1782,8 +1832,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/grenade-mod/slippy-bl4",
+    "image": "/items/slippy-bl4.avif",
+    "imageCard": "/items/slippy-bl4-card.avif"
   },
   {
     "id": "52",
@@ -1821,8 +1872,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/grenade-mod/waterfall-bl4",
+    "image": "/items/waterfall-bl4.avif",
+    "imageCard": "/items/waterfall-bl4-card.avif"
   },
   {
     "id": "53",
@@ -1860,8 +1912,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/grenade-mod/blockbuster-bl4",
+    "image": "/items/blockbuster-bl4.avif",
+    "imageCard": "/items/blockbuster-bl4-card.avif"
   },
   {
     "id": "54",
@@ -1899,8 +1952,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/bod-bl4",
+    "image": "/items/bod-bl4.avif",
+    "imageCard": "/items/bod-bl4-card.avif"
   },
   {
     "id": "55",
@@ -1938,8 +1992,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/acey-may-bl4",
+    "image": "/items/acey-may-bl4.avif",
+    "imageCard": "/items/acey-may-bl4-card.avif"
   },
   {
     "id": "56",
@@ -1972,8 +2027,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/hellwalker-bl4",
+    "image": "/items/hellwalker-bl4.avif",
+    "imageCard": "/items/hellwalker-bl4-card.avif"
   },
   {
     "id": "57",
@@ -2006,8 +2062,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/tks-wave-bl4",
+    "image": "/items/tks-wave-bl4.avif",
+    "imageCard": "/items/tks-wave-bl4-card.avif"
   },
   {
     "id": "58",
@@ -2040,8 +2097,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/hot-slugger-bl4",
+    "image": "/items/hot-slugger-bl4.avif",
+    "imageCard": "/items/hot-slugger-bl4-card.avif"
   },
   {
     "id": "59",
@@ -2074,8 +2132,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/rainbow-vomit-bl4",
+    "image": "/items/rainbow-vomit-bl4.avif",
+    "imageCard": "/items/rainbow-vomit-bl4-card.avif"
   },
   {
     "id": "60",
@@ -2112,8 +2171,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/kaleidosplode-bl4",
+    "image": "/items/kaleidosplode-bl4.avif",
+    "imageCard": "/items/kaleidosplode-bl4-card.avif"
   },
   {
     "id": "61",
@@ -2146,8 +2206,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/mantra-bl4",
+    "image": "/items/mantra-bl4.avif",
+    "imageCard": "/items/mantra-bl4-card.avif"
   },
   {
     "id": "62",
@@ -2184,8 +2245,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/kickballer-bl4",
+    "image": "/items/kickballer-bl4.avif",
+    "imageCard": "/items/kickballer-bl4-card.avif"
   },
   {
     "id": "63",
@@ -2221,8 +2283,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/sweet-embrace-bl4",
+    "image": "/items/sweet-embrace-bl4.avif",
+    "imageCard": "/items/sweet-embrace-bl4-card.avif"
   },
   {
     "id": "64",
@@ -2260,8 +2323,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/golden-god-bl4",
+    "image": "/items/golden-god-bl4.avif",
+    "imageCard": "/items/golden-god-bl4-card.avif"
   },
   {
     "id": "65",
@@ -2295,8 +2359,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/goremaster-bl4",
+    "image": "/items/goremaster-bl4.avif",
+    "imageCard": "/items/goremaster-bl4-card.avif"
   },
   {
     "id": "66",
@@ -2334,8 +2399,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/convergence-bl4",
+    "image": "/items/convergence-bl4.avif",
+    "imageCard": "/items/convergence-bl4-card.avif"
   },
   {
     "id": "67",
@@ -2373,8 +2439,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/anarchy-bl4",
+    "image": "/items/anarchy-bl4.avif",
+    "imageCard": "/items/anarchy-bl4-card.avif"
   },
   {
     "id": "68",
@@ -2412,8 +2479,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/husky-friend-bl4",
+    "image": "/items/husky-friend-bl4.avif",
+    "imageCard": "/items/husky-friend-bl4-card.avif"
   },
   {
     "id": "69",
@@ -2448,7 +2516,8 @@
     "worldDropDlcOnly": false,
     "phosphene": false,
     "lootlemonUrl": "https://www.lootlemon.com/weapon/eigenburst-bl4",
-    "image": "/items/eigenburst-bl4.avif"
+    "image": "/items/eigenburst-bl4.avif",
+    "imageCard": "/items/eigenburst-bl4-card.avif"
   },
   {
     "id": "70",
@@ -2486,8 +2555,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "http://lootlemon.com/weapon/linebacker-bl4",
+    "image": "/items/linebacker-bl4.avif",
+    "imageCard": "/items/linebacker-bl4-card.avif"
   },
   {
     "id": "71",
@@ -2525,8 +2595,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/lead-balloon-bl4",
+    "image": "/items/lead-balloon-bl4.avif",
+    "imageCard": "/items/lead-balloon-bl4-card.avif"
   },
   {
     "id": "72",
@@ -2559,8 +2630,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/grenade-mod/buzz-axe-bl4",
+    "image": "/items/buzz-axe-bl4.avif",
+    "imageCard": "/items/buzz-axe-bl4-card.avif"
   },
   {
     "id": "73",
@@ -2593,8 +2665,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/grenade-mod/spinning-blade-bl4",
+    "image": "/items/spinning-blade-bl4.avif",
+    "imageCard": "/items/spinning-blade-bl4-card.avif"
   },
   {
     "id": "74",
@@ -2627,8 +2700,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/grenade-mod/sho-kunai-bl4",
+    "image": "/items/sho-kunai-bl4.avif",
+    "imageCard": "/items/sho-kunai-bl4-card.avif"
   },
   {
     "id": "75",
@@ -2661,8 +2735,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/zipper-bl4",
+    "image": "/items/zipper-bl4.avif",
+    "imageCard": "/items/zipper-bl4-card.avif"
   },
   {
     "id": "76",
@@ -2700,8 +2775,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/rangefinder-bl4",
+    "image": "/items/rangefinder-bl4.avif",
+    "imageCard": "/items/rangefinder-bl4-card.avif"
   },
   {
     "id": "77",
@@ -2734,8 +2810,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/seventh-sense-bl4",
+    "image": "/items/seventh-sense-bl4.avif",
+    "imageCard": "/items/seventh-sense-bl4-card.avif"
   },
   {
     "id": "78",
@@ -2768,8 +2845,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/kings-gambit-bl4",
+    "image": "/items/kings-gambit-bl4.avif",
+    "imageCard": "/items/kings-gambit-bl4-card.avif"
   },
   {
     "id": "79",
@@ -2802,8 +2880,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/phantom-flame-bl4",
+    "image": "/items/phantom-flame-bl4.avif",
+    "imageCard": "/items/phantom-flame-bl4-card.avif"
   },
   {
     "id": "80",
@@ -2836,8 +2915,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/san-saba-songbird-bl4",
+    "image": "/items/san-saba-songbird-bl4.avif",
+    "imageCard": "/items/san-saba-songbird-bl4-card.avif"
   },
   {
     "id": "81",
@@ -2866,8 +2946,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/shalashaska-bl4",
+    "image": "/items/shalashaska-bl4.avif",
+    "imageCard": "/items/shalashaska-bl4-card.avif"
   },
   {
     "id": "82",
@@ -2900,8 +2981,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/bully-bl4",
+    "image": "/items/bully-bl4.avif",
+    "imageCard": "/items/bully-bl4-card.avif"
   },
   {
     "id": "83",
@@ -2934,8 +3016,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/lucky-clover-bl4",
+    "image": "/items/lucky-clover-bl4.avif",
+    "imageCard": "/items/lucky-clover-bl4-card.avif"
   },
   {
     "id": "84",
@@ -2968,8 +3051,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/noisy-cricket-bl4",
+    "image": "/items/noisy-cricket-bl4.avif",
+    "imageCard": "/items/noisy-cricket-bl4-card.avif"
   },
   {
     "id": "85",
@@ -3007,8 +3091,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/budget-deity-bl4",
+    "image": "/items/budget-deity-bl4.avif",
+    "imageCard": "/items/budget-deity-bl4-card.avif"
   },
   {
     "id": "86",
@@ -3041,8 +3126,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/sideshow-bl4",
+    "image": "/items/sideshow-bl4.avif",
+    "imageCard": "/items/sideshow-bl4-card.avif"
   },
   {
     "id": "87",
@@ -3080,8 +3166,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/rubys-grasp-bl4",
+    "image": "/items/rubys-grasp-bl4.avif",
+    "imageCard": "/items/rubys-grasp-bl4-card.avif"
   },
   {
     "id": "88",
@@ -3119,8 +3206,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/queens-rest-bl4",
+    "image": "/items/queens-rest-bl4.avif",
+    "imageCard": "/items/queens-rest-bl4-card.avif"
   },
   {
     "id": "89",
@@ -3158,8 +3246,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/roach-bl4",
+    "image": "/items/roach-bl4.avif",
+    "imageCard": "/items/roach-bl4-card.avif"
   },
   {
     "id": "90",
@@ -3192,8 +3281,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/luty-madlad-bl4",
+    "image": "/items/luty-madlad-bl4.avif",
+    "imageCard": "/items/luty-madlad-bl4-card.avif"
   },
   {
     "id": "91",
@@ -3226,8 +3316,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/darkbeast-bl4",
+    "image": "/items/darkbeast-bl4.avif",
+    "imageCard": "/items/darkbeast-bl4-card.avif"
   },
   {
     "id": "92",
@@ -3260,8 +3351,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/ohm-i-got-bl4",
+    "image": "/items/ohm-i-got-bl4.avif",
+    "imageCard": "/items/ohm-i-got-bl4-card.avif"
   },
   {
     "id": "93",
@@ -3295,8 +3387,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/plasma-coil-bl4",
+    "image": "/items/plasma-coil-bl4.avif",
+    "imageCard": "/items/plasma-coil-bl4-card.avif"
   },
   {
     "id": "94",
@@ -3329,8 +3422,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/hellfire-bl4",
+    "image": "/items/hellfire-bl4.avif",
+    "imageCard": "/items/hellfire-bl4-card.avif"
   },
   {
     "id": "95",
@@ -3368,8 +3462,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/prince-harming-bl4",
+    "image": "/items/prince-harming-bl4.avif",
+    "imageCard": "/items/prince-harming-bl4-card.avif"
   },
   {
     "id": "96",
@@ -3407,8 +3502,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/kaoson-bl4",
+    "image": "/items/kaoson-bl4.avif",
+    "imageCard": "/items/kaoson-bl4-card.avif"
   },
   {
     "id": "97",
@@ -3446,8 +3542,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/birts-bees-bl4",
+    "image": "/items/birts-bees-bl4.avif",
+    "imageCard": "/items/birts-bees-bl4-card.avif"
   },
   {
     "id": "98",
@@ -3484,8 +3581,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/onslaught-bl4",
+    "image": "/items/onslaught-bl4.avif",
+    "imageCard": "/items/onslaught-bl4-card.avif"
   },
   {
     "id": "99",
@@ -3516,8 +3614,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/class-mod/instigator-rafa-bl4",
+    "image": "/items/instigator-rafa-bl4.avif",
+    "imageCard": "/items/instigator-rafa-bl4-card.avif"
   },
   {
     "id": "100",
@@ -3548,8 +3647,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/class-mod/buster-rafa-bl4",
+    "image": "/items/buster-rafa-bl4.avif",
+    "imageCard": "/items/buster-rafa-bl4-card.avif"
   },
   {
     "id": "101",
@@ -3576,8 +3676,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/class-mod/overdriver-rafa-bl4",
+    "image": "/items/overdriver-rafa-bl4.avif",
+    "imageCard": "/items/overdriver-rafa-bl4-card.avif"
   },
   {
     "id": "102",
@@ -3608,8 +3709,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/class-mod/grenazerker-rafa-bl4",
+    "image": "/items/grenazerker-rafa-bl4.avif",
+    "imageCard": "/items/grenazerker-rafa-bl4-card.avif"
   },
   {
     "id": "103",
@@ -3640,8 +3742,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/class-mod/esgrimidor-rafa-bl4",
+    "image": "/items/esgrimidor-rafa-bl4.avif",
+    "imageCard": "/items/esgrimidor-rafa-bl4-card.avif"
   },
   {
     "id": "104",
@@ -3672,8 +3775,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/class-mod/dancer-rafa-bl4",
+    "image": "/items/dancer-rafa-bl4.avif",
+    "imageCard": "/items/dancer-rafa-bl4-card.avif"
   },
   {
     "id": "105",
@@ -3704,8 +3808,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/class-mod/filantropo-rafa-bl4",
+    "image": "/items/filantropo-rafa-bl4.avif",
+    "imageCard": "/items/filantropo-rafa-bl4-card.avif"
   },
   {
     "id": "106",
@@ -3736,8 +3841,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/pacemaker-bl4",
+    "image": "/items/pacemaker-bl4.avif",
+    "imageCard": "/items/pacemaker-bl4-card.avif"
   },
   {
     "id": "107",
@@ -3768,8 +3874,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/defibrillator-bl4",
+    "image": "/items/defibrillator-bl4.avif",
+    "imageCard": "/items/defibrillator-bl4-card.avif"
   },
   {
     "id": "108",
@@ -3800,8 +3907,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/blood-analyzer-bl4",
+    "image": "/items/blood-analyzer-bl4.avif",
+    "imageCard": "/items/blood-analyzer-bl4-card.avif"
   },
   {
     "id": "109",
@@ -3832,8 +3940,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/triple-bypass-bl4",
+    "image": "/items/triple-bypass-bl4.avif",
+    "imageCard": "/items/triple-bypass-bl4-card.avif"
   },
   {
     "id": "110",
@@ -3864,8 +3973,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/af1000-bl4",
+    "image": "/items/af1000-bl4.avif",
+    "imageCard": "/items/af1000-bl4-card.avif"
   },
   {
     "id": "111",
@@ -3896,8 +4006,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/kill-spring-bl4",
+    "image": "/items/kill-spring-bl4.avif",
+    "imageCard": "/items/kill-spring-bl4-card.avif"
   },
   {
     "id": "112",
@@ -3928,8 +4039,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/war-paint-bl4",
+    "image": "/items/war-paint-bl4.avif",
+    "imageCard": "/items/war-paint-bl4-card.avif"
   },
   {
     "id": "113",
@@ -3960,8 +4072,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/adrenaline-pump-bl4",
+    "image": "/items/adrenaline-pump-bl4.avif",
+    "imageCard": "/items/adrenaline-pump-bl4-card.avif"
   },
   {
     "id": "114",
@@ -3994,8 +4107,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/boomslang-bl4",
+    "image": "/items/boomslang-bl4.avif",
+    "imageCard": "/items/boomslang-bl4-card.avif"
   },
   {
     "id": "115",
@@ -4028,8 +4142,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/borstel-ballista-bl4",
+    "image": "/items/borstel-ballista-bl4.avif",
+    "imageCard": "/items/borstel-ballista-bl4-card.avif"
   },
   {
     "id": "116",
@@ -4062,8 +4177,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/truck-bl4",
+    "image": "/items/truck-bl4.avif",
+    "imageCard": "/items/truck-bl4-card.avif"
   },
   {
     "id": "117",
@@ -4100,8 +4216,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/complex-root-bl4",
+    "image": "/items/complex-root-bl4.avif",
+    "imageCard": "/items/complex-root-bl4-card.avif"
   },
   {
     "id": "118",
@@ -4135,8 +4252,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/katagawas-revenge-bl4",
+    "image": "/items/katagawas-revenge-bl4.avif",
+    "imageCard": "/items/katagawas-revenge-bl4-card.avif"
   },
   {
     "id": "119",
@@ -4172,8 +4290,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/ashers-rise-bl4",
+    "image": "/items/ashers-rise-bl4.avif",
+    "imageCard": "/items/ashers-rise-bl4-card.avif"
   },
   {
     "id": "120",
@@ -4206,8 +4325,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": "http://lootlemon.com/weapon/conflux-bl4",
-    "image": "/items/conflux-bl4.avif"
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/conflux-bl4",
+    "image": "/items/conflux-bl4.avif",
+    "imageCard": "/items/conflux-bl4-card.avif"
   },
   {
     "id": "121",
@@ -4240,8 +4360,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/fisheye-bl4",
+    "image": "/items/fisheye-bl4.avif",
+    "imageCard": "/items/fisheye-bl4-card.avif"
   },
   {
     "id": "122",
@@ -4274,8 +4395,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/symmetry-bl4",
+    "image": "/items/symmetry-bl4.avif",
+    "imageCard": "/items/symmetry-bl4-card.avif"
   },
   {
     "id": "123",
@@ -4313,8 +4435,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/stray-bl4",
+    "image": "/items/stray-bl4.avif",
+    "imageCard": "/items/stray-bl4-card.avif"
   },
   {
     "id": "124",
@@ -4352,8 +4475,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/vamoose-bl4",
+    "image": "/items/vamoose-bl4.avif",
+    "imageCard": "/items/vamoose-bl4-card.avif"
   },
   {
     "id": "125",
@@ -4387,8 +4511,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": null,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/rainmaker-bl4",
+    "image": "/items/rainmaker-bl4.avif",
+    "imageCard": "/items/rainmaker-bl4-card.avif"
   },
   {
     "id": "126",
@@ -4425,8 +4550,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/stop-gap-bl4",
+    "image": "/items/stop-gap-bl4.avif",
+    "imageCard": "/items/stop-gap-bl4-card.avif"
   },
   {
     "id": "127",
@@ -4459,8 +4585,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/finnity-xxxl-bl4",
+    "image": "/items/finnity-xxxl-bl4.avif",
+    "imageCard": "/items/finnity-xxxl-bl4-card.avif"
   },
   {
     "id": "128",
@@ -4493,8 +4620,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/grenade-mod/gamma-void-bl4",
+    "image": "/items/gamma-void-bl4.avif",
+    "imageCard": "/items/gamma-void-bl4-card.avif"
   },
   {
     "id": "129",
@@ -4527,8 +4655,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/grenade-mod/bottled-lightning-bl4",
+    "image": "/items/bottled-lightning-bl4.avif",
+    "imageCard": "/items/bottled-lightning-bl4-card.avif"
   },
   {
     "id": "130",
@@ -4566,8 +4695,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/grenade-mod/disc-jockey-bl4",
+    "image": "/items/disc-jockey-bl4.avif",
+    "imageCard": "/items/disc-jockey-bl4-card.avif"
   },
   {
     "id": "131",
@@ -4601,8 +4731,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/grenade-mod/jetsetter-bl4",
+    "image": "/items/jetsetter-bl4.avif",
+    "imageCard": "/items/jetsetter-bl4-card.avif"
   },
   {
     "id": "132",
@@ -4640,8 +4771,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/grenade-mod/streamer-bl4",
+    "image": "/items/streamer-bl4.avif",
+    "imageCard": "/items/streamer-bl4-card.avif"
   },
   {
     "id": "133",
@@ -4679,8 +4811,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/grenade-mod/ravenfire-bl4",
+    "image": "/items/ravenfire-bl4.avif",
+    "imageCard": "/items/ravenfire-bl4-card.avif"
   },
   {
     "id": "134",
@@ -4717,8 +4850,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/grenade-mod/sprezzatura-bl4",
+    "image": "/items/sprezzatura-bl4.avif",
+    "imageCard": "/items/sprezzatura-bl4-card.avif"
   },
   {
     "id": "135",
@@ -4755,8 +4889,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/grenade-mod/tinged-inkling-bl4",
+    "image": "/items/tinged-inkling-bl4.avif",
+    "imageCard": "/items/tinged-inkling-bl4-card.avif"
   },
   {
     "id": "136",
@@ -4794,8 +4929,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/grenade-mod/atling-gun-bl4",
+    "image": "/items/atling-gun-bl4.avif",
+    "imageCard": "/items/atling-gun-bl4-card.avif"
   },
   {
     "id": "137",
@@ -4825,8 +4961,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/x-y-combo-bl4",
+    "image": "/items/x-y-combo-bl4.avif",
+    "imageCard": "/items/x-y-combo-bl4-card.avif"
   },
   {
     "id": "138",
@@ -4856,8 +4993,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/z-x-junction-bl4",
+    "image": "/items/z-x-junction-bl4.avif",
+    "imageCard": "/items/z-x-junction-bl4-card.avif"
   },
   {
     "id": "139",
@@ -4887,8 +5025,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/x-initiator-bl4",
+    "image": "/items/x-initiator-bl4.avif",
+    "imageCard": "/items/x-initiator-bl4-card.avif"
   },
   {
     "id": "140",
@@ -4918,8 +5057,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/y-initiator-bl4",
+    "image": "/items/y-initiator-bl4.avif",
+    "imageCard": "/items/y-initiator-bl4-card.avif"
   },
   {
     "id": "141",
@@ -4949,8 +5089,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/z-initiator-bl4",
+    "image": "/items/z-initiator-bl4.avif",
+    "imageCard": "/items/z-initiator-bl4-card.avif"
   },
   {
     "id": "142",
@@ -4980,8 +5121,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/y-z-nexus-bl4",
+    "image": "/items/y-z-nexus-bl4.avif",
+    "imageCard": "/items/y-z-nexus-bl4-card.avif"
   },
   {
     "id": "143",
@@ -5011,8 +5153,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/glacier-bl4",
+    "image": "/items/glacier-bl4.avif",
+    "imageCard": "/items/glacier-bl4-card.avif"
   },
   {
     "id": "144",
@@ -5042,8 +5185,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/quicksilver-bl4",
+    "image": "/items/quicksilver-bl4.avif",
+    "imageCard": "/items/quicksilver-bl4-card.avif"
   },
   {
     "id": "145",
@@ -5073,8 +5217,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/hephaestian-bl4",
+    "image": "/items/hephaestian-bl4.avif",
+    "imageCard": "/items/hephaestian-bl4-card.avif"
   },
   {
     "id": "146",
@@ -5104,8 +5249,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/accumulator-bl4",
+    "image": "/items/accumulator-bl4.avif",
+    "imageCard": "/items/accumulator-bl4-card.avif"
   },
   {
     "id": "147",
@@ -5135,8 +5281,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/scion-bl4",
+    "image": "/items/scion-bl4.avif",
+    "imageCard": "/items/scion-bl4-card.avif"
   },
   {
     "id": "148",
@@ -5166,8 +5313,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/collector-bl4",
+    "image": "/items/collector-bl4.avif",
+    "imageCard": "/items/collector-bl4-card.avif"
   },
   {
     "id": "149",
@@ -5197,8 +5345,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/steward-bl4",
+    "image": "/items/steward-bl4.avif",
+    "imageCard": "/items/steward-bl4-card.avif"
   },
   {
     "id": "150",
@@ -5228,8 +5377,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/gatherer-bl4",
+    "image": "/items/gatherer-bl4.avif",
+    "imageCard": "/items/gatherer-bl4-card.avif"
   },
   {
     "id": "151",
@@ -5259,8 +5409,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/principal-bl4",
+    "image": "/items/principal-bl4.avif",
+    "imageCard": "/items/principal-bl4-card.avif"
   },
   {
     "id": "152",
@@ -5290,8 +5441,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/trooper-bl4",
+    "image": "/items/trooper-bl4.avif",
+    "imageCard": "/items/trooper-bl4-card.avif"
   },
   {
     "id": "153",
@@ -5321,8 +5473,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/director-bl4",
+    "image": "/items/director-bl4.avif",
+    "imageCard": "/items/director-bl4-card.avif"
   },
   {
     "id": "154",
@@ -5352,8 +5505,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/stalwart-bl4",
+    "image": "/items/stalwart-bl4.avif",
+    "imageCard": "/items/stalwart-bl4-card.avif"
   },
   {
     "id": "155",
@@ -5383,8 +5537,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/besieger-bl4",
+    "image": "/items/besieger-bl4.avif",
+    "imageCard": "/items/besieger-bl4-card.avif"
   },
   {
     "id": "156",
@@ -5414,8 +5569,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/champion-bl4",
+    "image": "/items/champion-bl4.avif",
+    "imageCard": "/items/champion-bl4-card.avif"
   },
   {
     "id": "157",
@@ -5445,8 +5601,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/quintain-bl4",
+    "image": "/items/quintain-bl4.avif",
+    "imageCard": "/items/quintain-bl4-card.avif"
   },
   {
     "id": "158",
@@ -5476,8 +5633,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "http://lootlemon.com/bonus-item/multistrike-bl4",
+    "image": "/items/multistrike-bl4.avif",
+    "imageCard": "/items/multistrike-bl4-card.avif"
   },
   {
     "id": "159",
@@ -5507,8 +5665,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/scattershot-bl4",
+    "image": "/items/scattershot-bl4.avif",
+    "imageCard": "/items/scattershot-bl4-card.avif"
   },
   {
     "id": "160",
@@ -5538,8 +5697,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/ladykiller-bl4",
+    "image": "/items/ladykiller-bl4.avif",
+    "imageCard": "/items/ladykiller-bl4-card.avif"
   },
   {
     "id": "161",
@@ -5569,8 +5729,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/blind-box-bl4",
+    "image": "/items/blind-box-bl4.avif",
+    "imageCard": "/items/blind-box-bl4-card.avif"
   },
   {
     "id": "162",
@@ -5600,8 +5761,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/hat-trick-bl4",
+    "image": "/items/hat-trick-bl4.avif",
+    "imageCard": "/items/hat-trick-bl4-card.avif"
   },
   {
     "id": "163",
@@ -5631,8 +5793,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/assuit-bl4",
+    "image": "/items/assuit-bl4.avif",
+    "imageCard": "/items/assuit-bl4-card.avif"
   },
   {
     "id": "164",
@@ -5662,8 +5825,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/lame-bl4",
+    "image": "/items/lame-bl4.avif",
+    "imageCard": "/items/lame-bl4-card.avif"
   },
   {
     "id": "165",
@@ -5693,8 +5857,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/maestro-bl4",
+    "image": "/items/maestro-bl4.avif",
+    "imageCard": "/items/maestro-bl4-card.avif"
   },
   {
     "id": "166",
@@ -5724,8 +5889,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/icon-bl4",
+    "image": "/items/icon-bl4.avif",
+    "imageCard": "/items/icon-bl4-card.avif"
   },
   {
     "id": "167",
@@ -5755,8 +5921,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/fashionista-bl4",
+    "image": "/items/fashionista-bl4.avif",
+    "imageCard": "/items/fashionista-bl4-card.avif"
   },
   {
     "id": "168",
@@ -5786,8 +5953,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/toile-bl4",
+    "image": "/items/toile-bl4.avif",
+    "imageCard": "/items/toile-bl4-card.avif"
   },
   {
     "id": "169",
@@ -5817,8 +5985,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/ouroboros-bl4",
+    "image": "/items/ouroboros-bl4.avif",
+    "imageCard": "/items/ouroboros-bl4-card.avif"
   },
   {
     "id": "170",
@@ -5848,8 +6017,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/entangler-bl4",
+    "image": "/items/entangler-bl4.avif",
+    "imageCard": "/items/entangler-bl4-card.avif"
   },
   {
     "id": "171",
@@ -5879,8 +6049,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/parallaxis-bl4",
+    "image": "/items/parallaxis-bl4.avif",
+    "imageCard": "/items/parallaxis-bl4-card.avif"
   },
   {
     "id": "172",
@@ -5910,8 +6081,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/primadiem-bl4",
+    "image": "/items/primadiem-bl4.avif",
+    "imageCard": "/items/primadiem-bl4-card.avif"
   },
   {
     "id": "173",
@@ -5941,8 +6113,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/evolver-bl4",
+    "image": "/items/evolver-bl4.avif",
+    "imageCard": "/items/evolver-bl4-card.avif"
   },
   {
     "id": "174",
@@ -5972,8 +6145,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/looper-bl4",
+    "image": "/items/looper-bl4.avif",
+    "imageCard": "/items/looper-bl4-card.avif"
   },
   {
     "id": "175",
@@ -6003,8 +6177,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/autocannibal-bl4",
+    "image": "/items/autocannibal-bl4.avif",
+    "imageCard": "/items/autocannibal-bl4-card.avif"
   },
   {
     "id": "176",
@@ -6034,8 +6209,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/disruptor-bl4",
+    "image": "/items/disruptor-bl4.avif",
+    "imageCard": "/items/disruptor-bl4-card.avif"
   },
   {
     "id": "177",
@@ -6065,8 +6241,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/binger-bl4",
+    "image": "/items/binger-bl4.avif",
+    "imageCard": "/items/binger-bl4-card.avif"
   },
   {
     "id": "178",
@@ -6096,8 +6273,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/devourer-bl4",
+    "image": "/items/devourer-bl4.avif",
+    "imageCard": "/items/devourer-bl4-card.avif"
   },
   {
     "id": "179",
@@ -6127,8 +6305,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/entropic-bl4",
+    "image": "/items/entropic-bl4.avif",
+    "imageCard": "/items/entropic-bl4-card.avif"
   },
   {
     "id": "180",
@@ -6158,8 +6337,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/slugger-bl4",
+    "image": "/items/slugger-bl4.avif",
+    "imageCard": "/items/slugger-bl4-card.avif"
   },
   {
     "id": "181",
@@ -6189,8 +6369,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/quencher-bl4",
+    "image": "/items/quencher-bl4.avif",
+    "imageCard": "/items/quencher-bl4-card.avif"
   },
   {
     "id": "182",
@@ -6220,8 +6401,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/hydrator-bl4",
+    "image": "/items/hydrator-bl4.avif",
+    "imageCard": "/items/hydrator-bl4-card.avif"
   },
   {
     "id": "183",
@@ -6251,8 +6433,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/gummy-bl4",
+    "image": "/items/gummy-bl4.avif",
+    "imageCard": "/items/gummy-bl4-card.avif"
   },
   {
     "id": "184",
@@ -6282,8 +6465,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/value-add-bl4",
+    "image": "/items/value-add-bl4.avif",
+    "imageCard": "/items/value-add-bl4-card.avif"
   },
   {
     "id": "185",
@@ -6313,8 +6497,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/valuepalooza-bl4",
+    "image": "/items/valuepalooza-bl4.avif",
+    "imageCard": "/items/valuepalooza-bl4-card.avif"
   },
   {
     "id": "186",
@@ -6344,8 +6529,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/extension-bl4",
+    "image": "/items/extension-bl4.avif",
+    "imageCard": "/items/extension-bl4-card.avif"
   },
   {
     "id": "187",
@@ -6375,8 +6561,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/big-banger-bl4",
+    "image": "/items/big-banger-bl4.avif",
+    "imageCard": "/items/big-banger-bl4-card.avif"
   },
   {
     "id": "188",
@@ -6406,8 +6593,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/jackhammer-bl4",
+    "image": "/items/jackhammer-bl4.avif",
+    "imageCard": "/items/jackhammer-bl4-card.avif"
   },
   {
     "id": "189",
@@ -6437,8 +6625,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/studfinder-bl4",
+    "image": "/items/studfinder-bl4.avif",
+    "imageCard": "/items/studfinder-bl4-card.avif"
   },
   {
     "id": "190",
@@ -6468,8 +6657,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/pumper-bl4",
+    "image": "/items/pumper-bl4.avif",
+    "imageCard": "/items/pumper-bl4-card.avif"
   },
   {
     "id": "191",
@@ -6499,8 +6689,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/flashpan-bl4",
+    "image": "/items/flashpan-bl4.avif",
+    "imageCard": "/items/flashpan-bl4-card.avif"
   },
   {
     "id": "192",
@@ -6530,8 +6721,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/body-counter-bl4",
+    "image": "/items/body-counter-bl4.avif",
+    "imageCard": "/items/body-counter-bl4-card.avif"
   },
   {
     "id": "193",
@@ -6561,8 +6753,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/dog-movement-bl4",
+    "image": "/items/dog-movement-bl4.avif",
+    "imageCard": "/items/dog-movement-bl4-card.avif"
   },
   {
     "id": "194",
@@ -6592,8 +6785,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "http://lootlemon.com/bonus-item/hero-of-bullet-bl4",
+    "image": "/items/hero-of-bullet-bl4.avif",
+    "imageCard": "/items/hero-of-bullet-bl4-card.avif"
   },
   {
     "id": "195",
@@ -6624,8 +6818,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/class-mod/bio-robot-harlowe-bl4",
+    "image": "/items/bio-robot-harlowe-bl4.avif",
+    "imageCard": "/items/bio-robot-harlowe-bl4-card.avif"
   },
   {
     "id": "196",
@@ -6656,8 +6851,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/class-mod/driver-harlowe-bl4",
+    "image": "/items/driver-harlowe-bl4.avif",
+    "imageCard": "/items/driver-harlowe-bl4-card.avif"
   },
   {
     "id": "197",
@@ -6688,8 +6884,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/class-mod/generator-harlowe-bl4",
+    "image": "/items/generator-harlowe-bl4.avif",
+    "imageCard": "/items/generator-harlowe-bl4-card.avif"
   },
   {
     "id": "198",
@@ -6716,8 +6913,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/class-mod/trooper-harlowe-bl4",
+    "image": "/items/trooper-harlowe-bl4.avif",
+    "imageCard": "/items/trooper-harlowe-bl4-card.avif"
   },
   {
     "id": "199",
@@ -6748,8 +6946,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/class-mod/reactor-harlowe-bl4",
+    "image": "/items/reactor-harlowe-bl4.avif",
+    "imageCard": "/items/reactor-harlowe-bl4-card.avif"
   },
   {
     "id": "200",
@@ -6780,8 +6979,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/class-mod/skeptic-harlowe-bl4",
+    "image": "/items/skeptic-harlowe-bl4.avif",
+    "imageCard": "/items/skeptic-harlowe-bl4-card.avif"
   },
   {
     "id": "201",
@@ -6812,8 +7012,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/class-mod/scientist-harlowe-bl4",
+    "image": "/items/scientist-harlowe-bl4.avif",
+    "imageCard": "/items/scientist-harlowe-bl4-card.avif"
   },
   {
     "id": "202",
@@ -6851,8 +7052,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/shield/guardian-angel-bl4",
+    "image": "/items/guardian-angel-bl4.avif",
+    "imageCard": "/items/guardian-angel-bl4-card.avif"
   },
   {
     "id": "203",
@@ -6890,8 +7092,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/shield/super-soldier-bl4",
+    "image": "/items/super-soldier-bl4.avif",
+    "imageCard": "/items/super-soldier-bl4-card.avif"
   },
   {
     "id": "204",
@@ -6929,8 +7132,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/shield/pandoran-memento-bl4",
+    "image": "/items/pandoran-memento-bl4.avif",
+    "imageCard": "/items/pandoran-memento-bl4-card.avif"
   },
   {
     "id": "205",
@@ -6968,8 +7172,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/shield/extra-medium-bl4",
+    "image": "/items/extra-medium-bl4.avif",
+    "imageCard": "/items/extra-medium-bl4-card.avif"
   },
   {
     "id": "206",
@@ -7007,8 +7212,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/shield/cindershelly-bl4",
+    "image": "/items/cindershelly-bl4.avif",
+    "imageCard": "/items/cindershelly-bl4-card.avif"
   },
   {
     "id": "207",
@@ -7041,8 +7247,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/shield/protean-cell-bl4",
+    "image": "/items/protean-cell-bl4.avif",
+    "imageCard": "/items/protean-cell-bl4-card.avif"
   },
   {
     "id": "208",
@@ -7080,8 +7287,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/shield/sparky-shield-bl4",
+    "image": "/items/sparky-shield-bl4.avif",
+    "imageCard": "/items/sparky-shield-bl4-card.avif"
   },
   {
     "id": "209",
@@ -7114,8 +7322,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/shield/watts-4-dinner-bl4",
+    "image": "/items/watts-4-dinner-bl4.avif",
+    "imageCard": "/items/watts-4-dinner-bl4-card.avif"
   },
   {
     "id": "210",
@@ -7148,8 +7357,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/shield/firebreak-bl4",
+    "image": "/items/firebreak-bl4.avif",
+    "imageCard": "/items/firebreak-bl4-card.avif"
   },
   {
     "id": "211",
@@ -7177,8 +7387,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/first-impression-bl4",
+    "image": "/items/first-impression-bl4.avif",
+    "imageCard": "/items/first-impression-bl4-card.avif"
   },
   {
     "id": "212",
@@ -7206,8 +7417,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/grenade-mod/transmitter-bl4",
+    "image": "/items/transmitter-bl4.avif",
+    "imageCard": "/items/transmitter-bl4-card.avif"
   },
   {
     "id": "213",
@@ -7236,8 +7448,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/matadors-match-bl4",
+    "image": "/items/matadors-match-bl4.avif",
+    "imageCard": "/items/matadors-match-bl4-card.avif"
   },
   {
     "id": "214",
@@ -7265,8 +7478,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/grenade-mod/sidewinder-bl4",
+    "image": "/items/sidewinder-bl4.avif",
+    "imageCard": "/items/sidewinder-bl4-card.avif"
   },
   {
     "id": "215",
@@ -7303,8 +7517,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": null,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/murmur-bl4",
+    "image": "/items/murmur-bl4.avif",
+    "imageCard": "/items/murmur-bl4-card.avif"
   },
   {
     "id": "216",
@@ -7336,8 +7551,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/grenade-mod/skully-bl4",
+    "image": "/items/skully-bl4.avif",
+    "imageCard": "/items/skully-bl4-card.avif"
   },
   {
     "id": "217",
@@ -7366,8 +7582,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/rowdy-rider-bl4",
+    "image": "/items/rowdy-rider-bl4.avif",
+    "imageCard": "/items/rowdy-rider-bl4-card.avif"
   },
   {
     "id": "218",
@@ -7395,8 +7612,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/missilaser-bl4",
+    "image": "/items/missilaser-bl4.avif",
+    "imageCard": "/items/missilaser-bl4-card.avif"
   },
   {
     "id": "219",
@@ -7430,8 +7648,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/inscriber-bl4",
+    "image": "/items/inscriber-bl4.avif",
+    "imageCard": "/items/inscriber-bl4-card.avif"
   },
   {
     "id": "220",
@@ -7464,8 +7683,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/hardpoint-bl4",
+    "image": "/items/hardpoint-bl4.avif",
+    "imageCard": "/items/hardpoint-bl4-card.avif"
   },
   {
     "id": "221",
@@ -7498,8 +7718,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/aching-roil-bl4",
+    "image": "/items/aching-roil-bl4.avif",
+    "imageCard": "/items/aching-roil-bl4-card.avif"
   },
   {
     "id": "222",
@@ -7526,8 +7747,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/healthraiser-bl4",
+    "image": "/items/healthraiser-bl4.avif",
+    "imageCard": "/items/healthraiser-bl4-card.avif"
   },
   {
     "id": "223",
@@ -7555,8 +7777,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/rooker-bl4",
+    "image": "/items/rooker-bl4.avif",
+    "imageCard": "/items/rooker-bl4-card.avif"
   },
   {
     "id": "224",
@@ -7589,8 +7812,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/mercredi-bl4",
+    "image": "/items/mercredi-bl4.avif",
+    "imageCard": "/items/mercredi-bl4-card.avif"
   },
   {
     "id": "225",
@@ -7623,8 +7847,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/laser-disker-bl4",
+    "image": "/items/laser-disker-bl4.avif",
+    "imageCard": "/items/laser-disker-bl4-card.avif"
   },
   {
     "id": "226",
@@ -7653,8 +7878,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/fleabag-bl4",
+    "image": "/items/fleabag-bl4.avif",
+    "imageCard": "/items/fleabag-bl4-card.avif"
   },
   {
     "id": "227",
@@ -7687,8 +7913,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/bubbles-bl4",
+    "image": "/items/bubbles-bl4.avif",
+    "imageCard": "/items/bubbles-bl4-card.avif"
   },
   {
     "id": "228",
@@ -7722,8 +7949,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/shield/hopscotch-bl4",
+    "image": "/items/hopscotch-bl4.avif",
+    "imageCard": "/items/hopscotch-bl4-card.avif"
   },
   {
     "id": "229",
@@ -7756,8 +7984,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/grenade-mod/countermeasure-bl4",
+    "image": "/items/countermeasure-bl4.avif",
+    "imageCard": "/items/countermeasure-bl4-card.avif"
   },
   {
     "id": "230",
@@ -7786,8 +8015,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/doeshot-bl4",
+    "image": "/items/doeshot-bl4.avif",
+    "imageCard": "/items/doeshot-bl4-card.avif"
   },
   {
     "id": "231",
@@ -7821,8 +8051,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/hair-trigger-bl4",
+    "image": "/items/hair-trigger-bl4.avif",
+    "imageCard": "/items/hair-trigger-bl4-card.avif"
   },
   {
     "id": "232",
@@ -7855,8 +8086,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/arc-tan-bl4",
+    "image": "/items/arc-tan-bl4.avif",
+    "imageCard": "/items/arc-tan-bl4-card.avif"
   },
   {
     "id": "233",
@@ -7885,8 +8117,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/roulette-bl4",
+    "image": "/items/roulette-bl4.avif",
+    "imageCard": "/items/roulette-bl4-card.avif"
   },
   {
     "id": "234",
@@ -7920,7 +8153,8 @@
     "worldDropDlcOnly": false,
     "phosphene": false,
     "lootlemonUrl": "https://www.lootlemon.com/weapon/handcannon-bl4",
-    "image": "/items/handcannon-bl4.avif"
+    "image": "/items/handcannon-bl4.avif",
+    "imageCard": "/items/handcannon-bl4-card.avif"
   },
   {
     "id": "235",
@@ -7953,8 +8187,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/broken-wings-bl4",
+    "image": "/items/broken-wings-bl4.avif",
+    "imageCard": "/items/broken-wings-bl4-card.avif"
   },
   {
     "id": "236",
@@ -7983,8 +8218,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/mercurious-bl4",
+    "image": "/items/mercurious-bl4.avif",
+    "imageCard": "/items/mercurious-bl4-card.avif"
   },
   {
     "id": "237",
@@ -8017,8 +8253,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/tankbuster-bl4",
+    "image": "/items/tankbuster-bl4.avif",
+    "imageCard": "/items/tankbuster-bl4-card.avif"
   },
   {
     "id": "238",
@@ -8046,8 +8283,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": null,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/forsaken-chaos-bl4",
+    "image": "/items/forsaken-chaos-bl4.avif",
+    "imageCard": "/items/forsaken-chaos-bl4-card.avif"
   },
   {
     "id": "239",
@@ -8079,8 +8317,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": null,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/midnight-defiance-bl4",
+    "image": "/items/midnight-defiance-bl4.avif",
+    "imageCard": "/items/midnight-defiance-bl4-card.avif"
   },
   {
     "id": "240",
@@ -8111,8 +8350,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": true,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/class-mod/tempest-amon-bl4",
+    "image": "/items/tempest-amon-bl4.avif",
+    "imageCard": "/items/tempest-amon-bl4-card.avif"
   },
   {
     "id": "241",
@@ -8142,7 +8382,8 @@
     "worldDropDlcOnly": false,
     "phosphene": false,
     "lootlemonUrl": "https://www.lootlemon.com/weapon/crow-sourced-bl4",
-    "image": "/items/crow-sourced-bl4.avif"
+    "image": "/items/crow-sourced-bl4.avif",
+    "imageCard": "/items/crow-sourced-bl4-card.avif"
   },
   {
     "id": "242",
@@ -8175,8 +8416,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/laser-cutter-bl4",
+    "image": "/items/laser-cutter-bl4.avif",
+    "imageCard": "/items/laser-cutter-bl4-card.avif"
   },
   {
     "id": "243",
@@ -8207,8 +8449,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/class-mod/windrider-c4sh-bl4",
+    "image": "/items/windrider-c4sh-bl4.avif",
+    "imageCard": "/items/windrider-c4sh-bl4-card.avif"
   },
   {
     "id": "244",
@@ -8239,8 +8482,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": true,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/class-mod/gamer-c4sh-bl4",
+    "image": "/items/gamer-c4sh-bl4.avif",
+    "imageCard": "/items/gamer-c4sh-bl4-card.avif"
   },
   {
     "id": "245",
@@ -8271,8 +8515,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/class-mod/ludopath-c4sh-bl4",
+    "image": "/items/ludopath-c4sh-bl4.avif",
+    "imageCard": "/items/ludopath-c4sh-bl4-card.avif"
   },
   {
     "id": "246",
@@ -8303,8 +8548,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/class-mod/rounder-c4sh-bl4",
+    "image": "/items/rounder-c4sh-bl4.avif",
+    "imageCard": "/items/rounder-c4sh-bl4-card.avif"
   },
   {
     "id": "247",
@@ -8335,8 +8581,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/class-mod/whale-c4sh-bl4",
+    "image": "/items/whale-c4sh-bl4.avif",
+    "imageCard": "/items/whale-c4sh-bl4-card.avif"
   },
   {
     "id": "248",
@@ -8367,8 +8614,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/class-mod/cooler-c4sh-bl4",
+    "image": "/items/cooler-c4sh-bl4.avif",
+    "imageCard": "/items/cooler-c4sh-bl4-card.avif"
   },
   {
     "id": "249",
@@ -8399,8 +8647,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/class-mod/hotshot-c4sh-bl4",
+    "image": "/items/hotshot-c4sh-bl4.avif",
+    "imageCard": "/items/hotshot-c4sh-bl4-card.avif"
   },
   {
     "id": "250",
@@ -8427,8 +8676,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/class-mod/hooligan-c4sh-bl4",
+    "image": "/items/hooligan-c4sh-bl4.avif",
+    "imageCard": "/items/hooligan-c4sh-bl4-card.avif"
   },
   {
     "id": "251",
@@ -8462,8 +8712,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/shield/honey-badger-bl4",
+    "image": "/items/honey-badger-bl4.avif",
+    "imageCard": "/items/honey-badger-bl4-card.avif"
   },
   {
     "id": "252",
@@ -8497,8 +8748,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/shield/elpis-star-bl4",
+    "image": "/items/elpis-star-bl4.avif",
+    "imageCard": "/items/elpis-star-bl4-card.avif"
   },
   {
     "id": "253",
@@ -8531,8 +8783,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/grenade-mod/barb-ara-bl4",
+    "image": "/items/barb-ara-bl4.avif",
+    "imageCard": "/items/barb-ara-bl4-card.avif"
   },
   {
     "id": "254",
@@ -8563,8 +8816,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": true,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/class-mod/phlebotomist-harlowe-bl4",
+    "image": "/items/phlebotomist-harlowe-bl4.avif",
+    "imageCard": "/items/phlebotomist-harlowe-bl4-card.avif"
   },
   {
     "id": "255",
@@ -8598,8 +8852,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": true,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/grenade-mod/ichor-bl4",
+    "image": "/items/ichor-bl4.avif",
+    "imageCard": "/items/ichor-bl4-card.avif"
   },
   {
     "id": "256",
@@ -8633,8 +8888,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/grenade-mod/heimdahl-bl4",
+    "image": "/items/heimdahl-bl4.avif",
+    "imageCard": "/items/heimdahl-bl4-card.avif"
   },
   {
     "id": "257",
@@ -8667,8 +8923,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/grenade-mod/bismuth-tipped-daggers-bl4",
+    "image": "/items/bismuth-tipped-daggers-bl4.avif",
+    "imageCard": "/items/bismuth-tipped-daggers-bl4-card.avif"
   },
   {
     "id": "258",
@@ -8698,7 +8955,8 @@
     "worldDropDlcOnly": false,
     "phosphene": false,
     "lootlemonUrl": "https://www.lootlemon.com/weapon/soul-survivor-bl4",
-    "image": "/items/soul-survivor-bl4.avif"
+    "image": "/items/soul-survivor-bl4.avif",
+    "imageCard": "/items/soul-survivor-bl4-card.avif"
   },
   {
     "id": "259",
@@ -8727,8 +8985,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/sunspot-bl4",
+    "image": "/items/sunspot-bl4.avif",
+    "imageCard": "/items/sunspot-bl4-card.avif"
   },
   {
     "id": "260",
@@ -8762,8 +9021,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/scoot-n-shoot-bl4",
+    "image": "/items/scoot-n-shoot-bl4.avif",
+    "imageCard": "/items/scoot-n-shoot-bl4-card.avif"
   },
   {
     "id": "261",
@@ -8794,8 +9054,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": true,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/class-mod/reaparicion-rafa-bl4",
+    "image": "/items/reaparicion-rafa-bl4.avif",
+    "imageCard": "/items/reaparicion-rafa-bl4-card.avif"
   },
   {
     "id": "262",
@@ -8828,8 +9089,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/geiger-roid-bl4",
+    "image": "/items/geiger-roid-bl4.avif",
+    "imageCard": "/items/geiger-roid-bl4-card.avif"
   },
   {
     "id": "263",
@@ -8856,8 +9118,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/bonus-item/blood-moon-bl4",
+    "image": "/items/blood-moon-bl4.avif",
+    "imageCard": "/items/blood-moon-bl4-card.avif"
   },
   {
     "id": "264",
@@ -8890,8 +9153,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/reminisce-bl4",
+    "image": "/items/reminisce-bl4.avif",
+    "imageCard": "/items/reminisce-bl4-card.avif"
   },
   {
     "id": "265",
@@ -8926,7 +9190,8 @@
     "worldDropDlcOnly": false,
     "phosphene": false,
     "lootlemonUrl": "https://www.lootlemon.com/weapon/crazed-earl-bl4",
-    "image": "/items/crazed-earl-bl4.avif"
+    "image": "/items/crazed-earl-bl4.avif",
+    "imageCard": "/items/crazed-earl-bl4-card.avif"
   },
   {
     "id": "266",
@@ -8964,8 +9229,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": true,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/unstable-kor-bl4",
+    "image": "/items/unstable-kor-bl4.avif",
+    "imageCard": "/items/unstable-kor-bl4-card.avif"
   },
   {
     "id": "267",
@@ -8994,8 +9260,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/prowler-bl4",
+    "image": "/items/prowler-bl4.avif",
+    "imageCard": "/items/prowler-bl4-card.avif"
   },
   {
     "id": "268",
@@ -9024,8 +9291,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/flash-cyclone-bl4",
+    "image": "/items/flash-cyclone-bl4.avif",
+    "imageCard": "/items/flash-cyclone-bl4-card.avif"
   },
   {
     "id": "269",
@@ -9063,8 +9331,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": true,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/falke-bl4",
+    "image": "/items/falke-bl4.avif",
+    "imageCard": "/items/falke-bl4-card.avif"
   },
   {
     "id": "270",
@@ -9097,8 +9366,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": true,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/fearstalker-bl4",
+    "image": "/items/fearstalker-bl4.avif",
+    "imageCard": "/items/fearstalker-bl4-card.avif"
   },
   {
     "id": "271",
@@ -9127,8 +9397,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/hemorrhage-bl4",
+    "image": "/items/hemorrhage-bl4.avif",
+    "imageCard": "/items/hemorrhage-bl4-card.avif"
   },
   {
     "id": "272",
@@ -9159,8 +9430,9 @@
     "worldDrop": true,
     "worldDropDlcOnly": true,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/class-mod/configuration-vex-bl4",
+    "image": "/items/configuration-vex-bl4.avif",
+    "imageCard": "/items/configuration-vex-bl4-card.avif"
   },
   {
     "id": "273",
@@ -9187,8 +9459,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/class-mod/artificer-amon-bl4",
+    "image": "/items/artificer-amon-bl4.avif",
+    "imageCard": "/items/artificer-amon-bl4-card.avif"
   },
   {
     "id": "274",
@@ -9225,7 +9498,8 @@
     "worldDropDlcOnly": false,
     "phosphene": false,
     "lootlemonUrl": "https://www.lootlemon.com/weapon/juliets-sparkle-bl4",
-    "image": "/items/juliets-sparkle-bl4.avif"
+    "image": "/items/juliets-sparkle-bl4.avif",
+    "imageCard": "/items/juliets-sparkle-bl4-card.avif"
   },
   {
     "id": "275",
@@ -9252,8 +9526,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/class-mod/grim-sister-vex-bl4",
+    "image": "/items/grim-sister-vex-bl4.avif",
+    "imageCard": "/items/grim-sister-vex-bl4-card.avif"
   },
   {
     "id": "276",
@@ -9280,8 +9555,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/class-mod/bombastic-rafa-bl4",
+    "image": "/items/bombastic-rafa-bl4.avif",
+    "imageCard": "/items/bombastic-rafa-bl4-card.avif"
   },
   {
     "id": "277",
@@ -9308,8 +9584,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/class-mod/prestidigitator-c4sh-bl4",
+    "image": "/items/prestidigitator-c4sh-bl4.avif",
+    "imageCard": "/items/prestidigitator-c4sh-bl4-card.avif"
   },
   {
     "id": "278",
@@ -9336,8 +9613,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/class-mod/plasmaphile-harlowe-bl4",
+    "image": "/items/plasmaphile-harlowe-bl4.avif",
+    "imageCard": "/items/plasmaphile-harlowe-bl4-card.avif"
   },
   {
     "id": "279",
@@ -9370,7 +9648,8 @@
     "worldDropDlcOnly": false,
     "phosphene": false,
     "lootlemonUrl": "https://www.lootlemon.com/weapon/constable-bl4",
-    "image": "/items/constable-bl4.avif"
+    "image": "/items/constable-bl4.avif",
+    "imageCard": "/items/constable-bl4-card.avif"
   },
   {
     "id": "280",
@@ -9404,7 +9683,8 @@
     "worldDropDlcOnly": false,
     "phosphene": false,
     "lootlemonUrl": "https://www.lootlemon.com/weapon/jail-broken-gatling-bl4",
-    "image": "/items/jail-broken-gatling-bl4.avif"
+    "image": "/items/jail-broken-gatling-bl4.avif",
+    "imageCard": "/items/jail-broken-gatling-bl4-card.avif"
   },
   {
     "id": "281",
@@ -9437,7 +9717,8 @@
     "worldDropDlcOnly": false,
     "phosphene": false,
     "lootlemonUrl": "https://www.lootlemon.com/weapon/abyss-bl4",
-    "image": "/items/abyss-bl4.avif"
+    "image": "/items/abyss-bl4.avif",
+    "imageCard": "/items/abyss-bl4-card.avif"
   },
   {
     "id": "282",
@@ -9470,7 +9751,8 @@
     "worldDropDlcOnly": false,
     "phosphene": false,
     "lootlemonUrl": "https://www.lootlemon.com/weapon/gomie-bl4",
-    "image": "/items/gomie-bl4.avif"
+    "image": "/items/gomie-bl4.avif",
+    "imageCard": "/items/gomie-bl4-card.avif"
   },
   {
     "id": "283",
@@ -9504,8 +9786,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/shammy-kablammy-bl4",
+    "image": "/items/shammy-kablammy-bl4.avif",
+    "imageCard": "/items/shammy-kablammy-bl4-card.avif"
   },
   {
     "id": "284",
@@ -9543,7 +9826,8 @@
     "worldDropDlcOnly": false,
     "phosphene": false,
     "lootlemonUrl": "https://www.lootlemon.com/weapon/herald-bl4",
-    "image": "/items/herald-bl4.avif"
+    "image": "/items/herald-bl4.avif",
+    "imageCard": "/items/herald-bl4-card.avif"
   },
   {
     "id": "285",
@@ -9580,7 +9864,8 @@
     "worldDropDlcOnly": false,
     "phosphene": false,
     "lootlemonUrl": "https://www.lootlemon.com/weapon/parasite-bl4",
-    "image": "/items/parasite-bl4.avif"
+    "image": "/items/parasite-bl4.avif",
+    "imageCard": "/items/parasite-bl4-card.avif"
   },
   {
     "id": "286",
@@ -9617,7 +9902,8 @@
     "worldDropDlcOnly": false,
     "phosphene": false,
     "lootlemonUrl": "https://www.lootlemon.com/weapon/screwstonian-bl4",
-    "image": "/items/screwstonian-bl4.avif"
+    "image": "/items/screwstonian-bl4.avif",
+    "imageCard": "/items/screwstonian-bl4-card.avif"
   },
   {
     "id": "287",
@@ -9650,7 +9936,8 @@
     "worldDropDlcOnly": false,
     "phosphene": false,
     "lootlemonUrl": "https://www.lootlemon.com/weapon/solar-temper-bl4",
-    "image": "/items/solar-temper-bl4.avif"
+    "image": "/items/solar-temper-bl4.avif",
+    "imageCard": "/items/solar-temper-bl4-card.avif"
   },
   {
     "id": "288",
@@ -9684,8 +9971,9 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": true,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/weapon/lockjaw-bl4",
+    "image": "/items/lockjaw-bl4.avif",
+    "imageCard": "/items/lockjaw-bl4-card.avif"
   },
   {
     "id": "289",
@@ -9714,7 +10002,8 @@
     "worldDrop": false,
     "worldDropDlcOnly": false,
     "phosphene": false,
-    "lootlemonUrl": null,
-    "image": null
+    "lootlemonUrl": "https://www.lootlemon.com/shield/collector-bl4",
+    "image": "/items/collector-bl4.avif",
+    "imageCard": "/items/collector-bl4-card.avif"
   }
 ]

@@ -14,6 +14,7 @@ import Papa from "papaparse";
 import { normalizeRow, type RawRow } from "../src/lib/normalize";
 import type { LootItem } from "../src/lib/types";
 import { fetchImages } from "./fetch-images";
+import { fetchNameLinks } from "./sheet-links";
 
 const SHEET_ID =
   process.env.SHEET_ID || "1ZxbOGnJveB4a5Lju3Xy33_ff1XOSEnujtmgBl4h6zuE";
@@ -59,6 +60,21 @@ async function main() {
   const csv = await fetchCsv();
   const items = parse(csv);
   console.log(`✓ Распознано предметов: ${items.length}`);
+
+  // Ссылки на lootlemon берём из колонки «Имя» (покрывает все предметы).
+  console.log("→ Читаю ссылки из колонки «Имя» (XLSX)…");
+  const nameLinks = await fetchNameLinks();
+  let overridden = 0;
+  for (const item of items) {
+    const url = nameLinks.get(item.id);
+    if (url) {
+      if (url !== item.lootlemonUrl) overridden++;
+      item.lootlemonUrl = url;
+    }
+  }
+  console.log(
+    `✓ Ссылок из «Имя»: ${nameLinks.size} (обновлено у ${overridden} предметов)`,
+  );
 
   // Сводка по категориям для контроля.
   const byCat = items.reduce<Record<string, number>>((acc, i) => {

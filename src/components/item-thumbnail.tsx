@@ -31,11 +31,13 @@ const RARITY_GLOW: Record<Rarity, string> = {
 
 export function ItemThumbnail({
   item,
-  size = 64,
+  width = 96,
+  height = 56,
   className,
 }: {
   item: Pick<LootItem, "image" | "name" | "category" | "rarity">;
-  size?: number;
+  width?: number;
+  height?: number;
   className?: string;
 }) {
   const Icon = CATEGORY_ICON[item.category];
@@ -46,23 +48,18 @@ export function ItemThumbnail({
         RARITY_RING[item.rarity],
         className,
       )}
-      style={{ width: size, height: size }}
+      style={{ width, height }}
     >
       {item.image ? (
         // eslint-disable-next-line @next/next/no-img-element -- статика на подпути Pages, basePath ставим вручную
         <img
           src={assetPath(item.image)}
           alt={item.name}
-          width={size * 2}
-          height={size * 2}
           loading="lazy"
-          className="h-full w-full object-contain"
+          className="h-full w-full object-contain p-1"
         />
       ) : (
-        <Icon
-          className={cn("size-1/2", RARITY_GLOW[item.rarity])}
-          aria-hidden
-        />
+        <Icon className={cn("size-7", RARITY_GLOW[item.rarity])} aria-hidden />
       )}
     </div>
   );

@@ -65,8 +65,10 @@ export interface LootItem {
   phosphene: boolean | null;
   /** Ссылка на страницу lootlemon (если есть) */
   lootlemonUrl: string | null;
-  /** Путь к локальной картинке в /public (если скачана) */
+  /** Простой чистый рендер (для списка). Путь в /public или null */
   image: string | null;
+  /** Детальная карточка со статами (для детальной страницы). Путь в /public или null */
+  imageCard: string | null;
 }
 
 export const RARITY_LABEL: Record<Rarity, string> = {

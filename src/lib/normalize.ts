@@ -171,6 +171,7 @@ export function normalizeRow(row: RawRow): LootItem | null {
     worldDropDlcOnly,
     phosphene: normalizePhosphene(row["Фосфен"] ?? ""),
     lootlemonUrl: clean(row["Ссылка на лутлемон"]),
-    image: null, // заполняется этапом скачивания картинок
+    image: null, // простой рендер — заполняется этапом скачивания картинок
+    imageCard: null, // детальная карточка — там же
   };
 }

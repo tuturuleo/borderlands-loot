@@ -10,7 +10,7 @@ import { Separator } from "@/components/ui/separator";
 import { getItemById, items } from "@/lib/data";
 import { RARITY_TEXT_CLASS } from "@/lib/rarity";
 import { CATEGORY_LABEL, RARITY_LABEL, type LootItem } from "@/lib/types";
-import { cn } from "@/lib/utils";
+import { assetPath, cn } from "@/lib/utils";
 
 export const dynamicParams = false;
 
@@ -63,7 +63,38 @@ export default async function ItemPage({
       </Button>
 
       <div className="flex flex-col gap-6 sm:flex-row sm:items-start">
-        <ItemThumbnail item={item} size={168} className="rounded-xl" />
+        {/* Оба изображения, как на детальной странице lootlemon */}
+        <div className="flex w-full shrink-0 flex-col gap-3 sm:w-72">
+          {item.imageCard ? (
+            // eslint-disable-next-line @next/next/no-img-element -- статика на подпути Pages
+            <img
+              src={assetPath(item.imageCard)}
+              alt={`${item.name} — карточка`}
+              className={cn(
+                "w-full rounded-xl bg-black/30 ring-1 ring-inset",
+                item.rarity === "legendary"
+                  ? "ring-legendary/50"
+                  : "ring-pearlescent/50",
+              )}
+            />
+          ) : null}
+          {item.image ? (
+            // eslint-disable-next-line @next/next/no-img-element -- статика на подпути Pages
+            <img
+              src={assetPath(item.image)}
+              alt={item.name}
+              className="w-full rounded-xl bg-black/30 object-contain p-3 ring-1 ring-inset ring-white/10"
+            />
+          ) : null}
+          {!item.image && !item.imageCard && (
+            <ItemThumbnail
+              item={item}
+              width={288}
+              height={180}
+              className="rounded-xl"
+            />
+          )}
+        </div>
 
         <div className="min-w-0 flex-1 space-y-3">
           <div className="flex flex-wrap items-center gap-2">
