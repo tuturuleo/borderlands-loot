@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Borderlands 4 — База лута
 
-## Getting Started
+Статический сайт-каталог лута Borderlands 4 (легендарки и перламутр): оружие,
+щиты, гранаты, ремкомплекты, классовые моды, улучшения. Поиск, фильтры по
+производителю / стихиям / источнику и сортировка — интерфейс в духе
+[lootlemon](https://www.lootlemon.com), но только по BL4 и на русском.
 
-First, run the development server:
+## Как это устроено
+
+- **Next.js (App Router) + Tailwind + shadcn/ui**, полностью **статический экспорт**
+  (`output: "export"`) — кладётся на любой бесплатный статический хостинг, без
+  сервера, без секретов в рантайме.
+- Данные лежат в репозитории (`src/data/items.json`), картинки — в `public/items`.
+  Сайт ничего не запрашивает у внешних сервисов во время работы.
+- Источник данных — публичная гугл-таблица (доступ «Anyone with the link → Viewer»).
+
+## Команды
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run dev      # локальная разработка
+npm run build    # сборка статики в ./out
+npm run lint     # проверка кода
+npm run update   # обновить данные из таблицы + скачать картинки
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Обновление данных
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+`npm run update`:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. тянет таблицу (CSV) и нормализует её в `src/data/items.json`;
+2. для предметов со ссылкой на lootlemon скачивает картинку в `public/items`
+   (самохостинг, не хотлинк);
+3. остальным предметам в интерфейсе рисуется плейсхолдер по типу + редкости.
 
-## Learn More
+Поменять таблицу можно через переменные окружения `SHEET_ID` и `SHEET_GID`.
 
-To learn more about Next.js, take a look at the following resources:
+После `npm run update` закоммить изменения в `src/data` и `public/items` — этого
+достаточно, чтобы статика пересобралась на хостинге.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Автообновление
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+`.github/workflows/update-data.yml` раз в неделю (и по кнопке `Run workflow`)
+сам запускает `npm run update` и коммитит изменения, если таблица поменялась.
+Сайт остаётся статическим — никакого сервера поддерживать не нужно.
 
-## Deploy on Vercel
+## Деплой
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Сайт — чистая статика (`./out`), подойдёт любой бесплатный хостинг:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Vercel** — самый простой путь: импортируешь репозиторий, всё определяется
+  автоматически, ничего настраивать не надо.
+- **Cloudflare Pages** — команда сборки `npm run build`, каталог вывода `out`.
+- **GitHub Pages** — задеплоить содержимое `out`. Если сайт живёт не в корне домена
+  (`username.github.io/имя-репо`), нужно прописать `basePath`/`assetPrefix` в
+  `next.config.ts`.

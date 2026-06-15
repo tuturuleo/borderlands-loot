@@ -1,0 +1,49 @@
+name: Обновление данных лута
+
+# Тянет свежую гугл-таблицу, регенерит data/items.json и картинки.
+# Если что-то изменилось — коммитит обратно (это триггерит редеплой статики).
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # каждый понедельник 06:00 UTC
+  workflow_dispatch: {} # ручной запуск из вкладки Actions
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Обновить данные и картинки
+        run: npm run update
+        env:
+          # При необходимости переопредели таблицу через секреты репозитория.
+          SHEET_ID: ${{ vars.SHEET_ID }}
+          SHEET_GID: ${{ vars.SHEET_GID }}
+
+      - name: Закоммитить изменения, если есть
+        run: |
+          if [[ -n "$(git status --porcelain src/data public/items)" ]]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add src/data public/items
+            git commit -m "chore: обновление данных лута"
+            git push
+            echo "Данные обновлены и запушены."
+          else
+            echo "Изменений нет — пропускаю коммит."
+          fi
