@@ -214,7 +214,7 @@ export function LootBrowser({ allItems }: { allItems: LootItem[] }) {
       <div className="flex gap-6">
         {/* Сайдбар фильтров — десктоп */}
         <div className="hidden w-64 shrink-0 lg:block">
-          <div className="sticky top-6">
+          <div >
             <FilterSidebar
               items={forCategory}
               category={category}
