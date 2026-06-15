@@ -155,66 +155,70 @@ export function LootBrowser({ allItems }: { allItems: LootItem[] }) {
   const filterCount = activeFilterCount(filters);
 
   return (
-    <div className="space-y-8">
-      {/* Название сайта — в самом верху */}
-      <p className="text-center text-2xl font-bold uppercase tracking-[0.2em] text-muted-foreground sm:text-3xl">
-        Borderlands 4 — База данных
-      </p>
+    <div className="mx-auto flex h-full max-w-7xl flex-col">
+      {/* Слим-бар: только название сайта, отделён снизу */}
+      <header className="shrink-0 border-b px-4 py-3 sm:px-6">
+        <p className="text-sm font-bold uppercase tracking-[0.2em] text-muted-foreground">
+          Borderlands 4 — База данных
+        </p>
+      </header>
 
-      {/* Поиск по всем категориям сразу */}
-      <div className="mx-auto w-full max-w-xl">
-        <div className="relative">
-          <Search className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" />
-          <Input
-            value={search}
-            onChange={(e) => setSearch(e.target.value || null)}
-            placeholder="Поиск по всем категориям…"
-            className="h-11 rounded-full pl-9"
+      {/* Контролы: поиск + вкладки */}
+      <div className="shrink-0 space-y-3 border-b px-4 py-4 sm:px-6">
+        <div className="mx-auto w-full max-w-xl">
+          <div className="relative">
+            <Search className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" />
+            <Input
+              value={search}
+              onChange={(e) => setSearch(e.target.value || null)}
+              placeholder="Поиск по всем категориям…"
+              className="h-10 rounded-full pl-9"
+            />
+          </div>
+        </div>
+
+        <div className="flex items-center justify-center gap-2">
+          {/* Кнопка фильтров для мобильных */}
+          <Sheet>
+            <SheetTrigger asChild>
+              <Button variant="outline" size="sm" className="lg:hidden">
+                <SlidersHorizontal className="size-4" />
+                Фильтры
+                {filterCount > 0 && (
+                  <span className="ml-1 rounded-full bg-primary px-1.5 text-xs text-primary-foreground">
+                    {filterCount}
+                  </span>
+                )}
+              </Button>
+            </SheetTrigger>
+            <SheetContent side="left" className="w-80 overflow-y-auto">
+              <SheetHeader className="sr-only">
+                <SheetTitle>Фильтры</SheetTitle>
+              </SheetHeader>
+              <div className="px-4 pb-8">
+                <FilterSidebar
+                  items={forCategory}
+                  category={category}
+                  filters={filters}
+                  onChange={setFilters}
+                />
+              </div>
+            </SheetContent>
+          </Sheet>
+
+          <CategoryTabs
+            active={category}
+            counts={categoryCounts}
+            onChange={onCategoryChange}
           />
         </div>
       </div>
 
-      {/* Вкладки категорий (пустые по текущему поиску — заблокированы) */}
-      <CategoryTabs
-        active={category}
-        counts={categoryCounts}
-        onChange={onCategoryChange}
-      />
-
-      {/* Кнопка фильтров для мобильных */}
-      <div className="flex justify-end lg:hidden">
-        <Sheet>
-          <SheetTrigger asChild>
-            <Button variant="outline" size="sm">
-              <SlidersHorizontal className="size-4" />
-              Фильтры
-              {filterCount > 0 && (
-                <span className="ml-1 rounded-full bg-primary px-1.5 text-xs text-primary-foreground">
-                  {filterCount}
-                </span>
-              )}
-            </Button>
-          </SheetTrigger>
-          <SheetContent side="left" className="w-80 overflow-y-auto">
-            <SheetHeader className="sr-only">
-              <SheetTitle>Фильтры</SheetTitle>
-            </SheetHeader>
-            <div className="px-4 pb-8">
-              <FilterSidebar
-                items={forCategory}
-                category={category}
-                filters={filters}
-                onChange={setFilters}
-              />
-            </div>
-          </SheetContent>
-        </Sheet>
-      </div>
-
-      <div className="flex gap-6">
+      {/* Контент: фильтры + таблица, каждый со своим внутренним скроллом */}
+      <div className="flex min-h-0 flex-1 gap-4 p-4 sm:px-6">
         {/* Сайдбар фильтров — десктоп */}
-        <div className="hidden w-64 shrink-0 lg:block">
-          <div >
+        <aside className="hidden w-64 shrink-0 lg:block">
+          <div className="h-full overflow-y-auto rounded-xl border bg-card/40 p-4">
             <FilterSidebar
               items={forCategory}
               category={category}
@@ -222,7 +226,7 @@ export function LootBrowser({ allItems }: { allItems: LootItem[] }) {
               onChange={setFilters}
             />
           </div>
-        </div>
+        </aside>
 
         <div className="min-w-0 flex-1">
           {selected.length > 0 ? (
@@ -235,7 +239,7 @@ export function LootBrowser({ allItems }: { allItems: LootItem[] }) {
               onSort={onSort}
             />
           ) : (
-            <div className="rounded-xl border bg-card/40 py-20 text-center text-muted-foreground">
+            <div className="flex h-full items-center justify-center rounded-xl border bg-card/40 text-center text-muted-foreground">
               Ничего не найдено. Попробуй изменить поиск или фильтры.
             </div>
           )}

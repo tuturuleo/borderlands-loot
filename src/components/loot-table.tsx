@@ -96,13 +96,15 @@ function SortHeader({
   onSort: (f: SortField) => void;
   className?: string;
 }) {
+  // sticky на самих <th> (на <thead> не держится в части браузеров).
+  const sticky = "sticky top-0 z-10 bg-card";
   if (!field) {
-    return <TableHead className={className}>{label}</TableHead>;
+    return <TableHead className={cn(sticky, className)}>{label}</TableHead>;
   }
   const active = sortField === field;
   const Icon = !active ? ChevronsUpDown : sortDir === "asc" ? ArrowUp : ArrowDown;
   return (
-    <TableHead className={className}>
+    <TableHead className={cn(sticky, className)}>
       <button
         type="button"
         onClick={() => onSort(field)}
@@ -136,9 +138,9 @@ export function LootTable({
   onSort: (f: SortField) => void;
 }) {
   return (
-    <div className="overflow-x-auto rounded-xl border bg-card/40">
+    <div className="h-full overflow-auto rounded-xl border bg-card/40 [&>div]:!overflow-visible">
       <Table>
-        <TableHeader>
+        <TableHeader className="bg-card">
           <TableRow className="hover:bg-transparent">
             {columns.map((col) => (
               <SortHeader
