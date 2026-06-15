@@ -38,7 +38,7 @@ export function activeFilterCount(f: LootFilters): number {
 }
 
 function typeLabel(item: LootItem): string {
-  return item.typeEn || item.type;
+  return item.type || item.typeEn;
 }
 
 function passesFilters(item: LootItem, f: LootFilters): boolean {

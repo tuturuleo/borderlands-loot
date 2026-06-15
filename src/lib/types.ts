@@ -75,12 +75,12 @@ export const RARITY_LABEL: Record<Rarity, string> = {
 };
 
 export const CATEGORY_LABEL: Record<Category, string> = {
-  weapons: "Weapons",
-  shields: "Shields",
-  ordnance: "Ordnance",
-  repkits: "Repkits",
-  "class-mods": "Class Mods",
-  enhancements: "Enhancements",
+  weapons: "Оружие",
+  shields: "Щиты",
+  ordnance: "Гранаты",
+  repkits: "Ремкомплекты",
+  "class-mods": "Модификаторы класса",
+  enhancements: "Улучшения",
 };
 
 // Порядок вкладок как на референсе.
@@ -94,12 +94,12 @@ export const CATEGORY_ORDER: Category[] = [
 ];
 
 export const ELEMENT_LABEL: Record<ElementKey, string> = {
-  kinetic: "Kinetic",
-  fire: "Fire",
-  shock: "Shock",
-  corrosive: "Corrosive",
-  cryo: "Cryo",
-  radiation: "Radiation",
+  kinetic: "Кинетический",
+  fire: "Огонь",
+  shock: "Шок",
+  corrosive: "Кислота",
+  cryo: "Крио",
+  radiation: "Радиация",
 };
 
 export const ELEMENT_ORDER: ElementKey[] = [

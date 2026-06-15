@@ -122,7 +122,7 @@ export default async function ItemPage({
         <Field label="Регион">{item.region ?? dash}</Field>
         <Field label="Локация">{item.location ?? dash}</Field>
         <Field label="Тип босса">{item.bossType ?? dash}</Field>
-        <Field label="World Drop">
+        <Field label="Ворлд-дроп">
           {item.worldDrop
             ? item.worldDropDlcOnly
               ? "Да (только DLC)"

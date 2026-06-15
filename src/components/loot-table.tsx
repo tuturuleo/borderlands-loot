@@ -45,7 +45,7 @@ const SORTABLE: Record<ColumnKey, SortField | null> = {
 };
 
 function typeLabel(item: LootItem): string {
-  return item.typeEn || item.type;
+  return item.type || item.typeEn;
 }
 
 // Какие колонки показываем — зависит от наличия данных в категории.
@@ -65,19 +65,19 @@ export function visibleColumns(
 function headerLabel(col: ColumnKey, category: Category): string {
   switch (col) {
     case "rarity":
-      return "Rarity";
+      return "Редкость";
     case "name":
-      return "Name";
+      return "Имя";
     case "type":
-      return category === "weapons" ? "Weapon Type" : "Type";
+      return category === "weapons" ? "Тип оружия" : "Тип";
     case "manufacturer":
-      return "Manufacturer";
+      return "Производитель";
     case "elements":
-      return "Elements";
+      return "Стихии";
     case "content":
-      return "Content";
+      return "Контент";
     case "sources":
-      return "Sources";
+      return "Источники";
   }
 }
 

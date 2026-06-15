@@ -91,7 +91,7 @@ export function FilterSidebar({
 }) {
   const facets = useMemo(() => {
     const rarities = distinct(items, (i) => i.rarity) as Rarity[];
-    const types = distinct(items, (i) => i.typeEn || i.type);
+    const types = distinct(items, (i) => i.type || i.typeEn);
     const manufacturers = distinct(items, (i) => i.manufacturer);
     const contents = distinct(items, (i) => i.content);
     const regions = distinct(items, (i) => i.region);
@@ -127,7 +127,7 @@ export function FilterSidebar({
       {facets.rarities.length > 1 && (
         <section className="space-y-2">
           <h3 className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">
-            Rarity
+            Редкость
           </h3>
           <div className="space-y-1.5">
             {facets.rarities.map((r) => {
@@ -158,7 +158,7 @@ export function FilterSidebar({
       {showElements && (
         <section className="space-y-2">
           <h3 className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">
-            Elements
+            Стихии
           </h3>
           <div className="flex flex-wrap gap-2">
             {facets.elements.map((e: ElementKey) => {
@@ -191,21 +191,21 @@ export function FilterSidebar({
       )}
 
       <CheckboxGroup
-        title={category === "weapons" ? "Weapon Type" : "Type"}
+        title={category === "weapons" ? "Тип оружия" : "Тип"}
         options={facets.types}
         selected={filters.types}
         onToggle={(v) => set({ types: toggle(filters.types, v) })}
       />
 
       <CheckboxGroup
-        title="Manufacturer"
+        title="Производитель"
         options={facets.manufacturers}
         selected={filters.manufacturers}
         onToggle={(v) => set({ manufacturers: toggle(filters.manufacturers, v) })}
       />
 
       <CheckboxGroup
-        title="Content"
+        title="Контент"
         options={facets.contents}
         selected={filters.contents}
         onToggle={(v) => set({ contents: toggle(filters.contents, v) })}
@@ -232,7 +232,7 @@ export function FilterSidebar({
             htmlFor="worldDrop"
             className="cursor-pointer text-sm font-normal text-foreground/90"
           >
-            Только World Drop
+            Только ворлд-дроп
           </Label>
         </div>
         <div className="flex items-center gap-2">

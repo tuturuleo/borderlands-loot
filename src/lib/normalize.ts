@@ -92,7 +92,6 @@ function buildSources(opts: {
   source: string | null;
   region: string | null;
   location: string | null;
-  typeEn: string;
   worldDrop: boolean;
   worldDropDlcOnly: boolean;
 }): SourceTag[] {
@@ -106,12 +105,11 @@ function buildSources(opts: {
     });
   }
 
-  // Пул world drop — как «Shotgun Pool / World Wide» на lootlemon.
+  // Пул world drop — на lootlemon это «… Pool / World Wide».
   if (opts.worldDrop) {
-    const pool = opts.typeEn ? `${opts.typeEn} Pool` : "World Drop";
     tags.push({
-      label: pool,
-      sub: opts.worldDropDlcOnly ? "DLC only" : "World Wide",
+      label: "Ворлд-дроп",
+      sub: opts.worldDropDlcOnly ? "только DLC" : "Везде",
     });
   }
 
@@ -162,7 +160,6 @@ export function normalizeRow(row: RawRow): LootItem | null {
       source,
       region,
       location,
-      typeEn,
       worldDrop,
       worldDropDlcOnly,
     }),

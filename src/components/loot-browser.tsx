@@ -156,7 +156,7 @@ export function LootBrowser({ allItems }: { allItems: LootItem[] }) {
         <p className="text-sm font-semibold uppercase tracking-[0.2em] text-muted-foreground">
           Borderlands 4 — База данных
         </p>
-        <h1 className="text-3xl font-bold sm:text-4xl">{label} List</h1>
+        <h1 className="text-3xl font-bold sm:text-4xl">{label}</h1>
       </div>
 
       <div className="mx-auto w-full max-w-xl">
@@ -173,7 +173,7 @@ export function LootBrowser({ allItems }: { allItems: LootItem[] }) {
 
       <div className="flex items-center justify-center gap-3">
         <span className="rounded-full bg-secondary px-4 py-1.5 text-sm text-muted-foreground">
-          {selected.length} of {forCategory.length} {label}
+          {selected.length} из {forCategory.length} · {label}
         </span>
         {/* Кнопка фильтров для мобильных */}
         <Sheet>
