@@ -104,7 +104,10 @@ export function selectItems(
 
   const sorted = [...searched].sort((a, b) => {
     const c = compare(a, b, opts.sortField);
-    return opts.sortDir === "asc" ? c : -c;
+    const primary = opts.sortDir === "asc" ? c : -c;
+    if (primary !== 0) return primary;
+    // Скрытая вторичная сортировка: всегда по имени А-Я.
+    return a.name.localeCompare(b.name, "ru");
   });
   return sorted;
 }
