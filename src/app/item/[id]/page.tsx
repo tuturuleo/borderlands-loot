@@ -120,7 +120,7 @@ export default async function ItemPage({
             )}
           </div>
           {item.featureRich?.length ? (
-            <p className="rounded-lg bg-secondary/60 p-3 text-sm leading-relaxed">
+            <p className="whitespace-pre-wrap rounded-lg bg-secondary/60 p-3 text-sm leading-relaxed">
               {item.featureRich.map((seg, i) => (
                 <span key={i} style={{ color: seg.color }}>
                   {seg.text}
@@ -128,7 +128,7 @@ export default async function ItemPage({
               ))}
             </p>
           ) : item.feature ? (
-            <p className="rounded-lg bg-secondary/60 p-3 text-sm leading-relaxed">
+            <p className="whitespace-pre-wrap rounded-lg bg-secondary/60 p-3 text-sm leading-relaxed">
               {item.feature}
             </p>
           ) : null}
