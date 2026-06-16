@@ -79,13 +79,13 @@ function compare(a: LootItem, b: LootItem, field: SortField): number {
   }
 }
 
-// Полнотекстовый (fuzzy) поиск по имени RU/EN и описанию. Пустой запрос — без фильтра.
+// Поиск по имени (RU/EN) и источникам (босс, регион, локация). Пустой запрос — без фильтра.
 export function searchItems(source: LootItem[], query: string): LootItem[] {
   const q = query.trim();
   if (!q) return source;
   // CONTAINS: матчим подстроку, а не символы вразброс (иначе fuzzy ловит всё подряд).
   return matchSorter(source, q, {
-    keys: ["name", "nameEn", "feature"],
+    keys: ["name", "nameEn", "source", "region", "location", "bossType"],
     threshold: rankings.CONTAINS,
   });
 }

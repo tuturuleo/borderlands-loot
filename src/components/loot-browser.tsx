@@ -171,7 +171,7 @@ export function LootBrowser({ allItems }: { allItems: LootItem[] }) {
             <Input
               value={search}
               onChange={(e) => setSearch(e.target.value || null)}
-              placeholder="Поиск по всем категориям…"
+              placeholder="Поиск"
               className="h-10 rounded-full pl-9"
             />
           </div>
