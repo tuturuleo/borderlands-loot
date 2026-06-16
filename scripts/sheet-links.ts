@@ -12,7 +12,7 @@ import { strFromU8, unzipSync } from "fflate";
 import type { FeatureSegment } from "../src/lib/types";
 
 const SHEET_ID =
-  process.env.SHEET_ID || "1ZxbOGnJveB4a5Lju3Xy33_ff1XOSEnujtmgBl4h6zuE";
+  process.env.SHEET_ID || "1v5NE3QnzZ8sgrD88aGJkbXTFRutEKyYn68Qh6xhFIcg";
 const XLSX_URL = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/export?format=xlsx`;
 
 const SHEET_XML = "xl/worksheets/sheet1.xml";

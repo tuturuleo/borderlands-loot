@@ -3,7 +3,7 @@
 
 const SHEET_ID =
   process.env.NEXT_PUBLIC_SHEET_ID ||
-  "1ZxbOGnJveB4a5Lju3Xy33_ff1XOSEnujtmgBl4h6zuE";
+  "1v5NE3QnzZ8sgrD88aGJkbXTFRutEKyYn68Qh6xhFIcg";
 
 // Ссылка на исходную гугл-таблицу.
 export const SHEET_URL = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/edit`;
