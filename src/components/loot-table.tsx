@@ -157,7 +157,10 @@ export function LootTable({
         </TableHeader>
         <TableBody>
           {items.map((item) => (
-            <TableRow key={item.id} className="align-middle">
+            <TableRow
+              key={item.id}
+              className="relative cursor-pointer align-middle"
+            >
               {columns.map((col) => (
                 <TableCell key={col} className="py-4">
                   {renderCell(col, item)}
@@ -177,15 +180,17 @@ function renderCell(col: ColumnKey, item: LootItem) {
       return <ItemThumbnail item={item} />;
     case "name":
       return (
-        <Link
-          href={`/item/${item.id}`}
-          className={cn(
-            "font-semibold hover:underline",
-            RARITY_TEXT_CLASS[item.rarity],
-          )}
-        >
-          {item.name}
-        </Link>
+        <>
+          {/* Растянутая ссылка покрывает всю строку (строка — relative) */}
+          <Link
+            href={`/item/${item.id}`}
+            aria-label={item.name}
+            className="absolute inset-0 rounded-md focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-inset focus-visible:outline-none"
+          />
+          <span className={cn("font-semibold", RARITY_TEXT_CLASS[item.rarity])}>
+            {item.name}
+          </span>
+        </>
       );
     case "type":
       return <span className="text-sm">{typeLabel(item)}</span>;
