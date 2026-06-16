@@ -187,8 +187,17 @@ function renderCell(col: ColumnKey, item: LootItem) {
             aria-label={item.name}
             className="absolute inset-0 rounded-md focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-inset focus-visible:outline-none"
           />
-          <span className={cn("font-semibold", RARITY_TEXT_CLASS[item.rarity])}>
-            {item.name}
+          <span className="flex flex-col leading-tight">
+            <span
+              className={cn("font-semibold", RARITY_TEXT_CLASS[item.rarity])}
+            >
+              {item.name}
+            </span>
+            {item.nameEn && (
+              <span className="text-xs text-muted-foreground">
+                {item.nameEn}
+              </span>
+            )}
           </span>
         </>
       );
