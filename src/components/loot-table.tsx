@@ -162,7 +162,7 @@ export function LootTable({
               className="relative cursor-pointer align-middle"
             >
               {columns.map((col) => (
-                <TableCell key={col} className="py-4">
+                <TableCell key={col} className="py-4 whitespace-normal">
                   {renderCell(col, item)}
                 </TableCell>
               ))}
