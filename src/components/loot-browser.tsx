@@ -160,7 +160,7 @@ export function LootBrowser({ allItems }: { allItems: LootItem[] }) {
       {/* Слим-бар: название слева, справа — кнопка-справка */}
       <header className="flex shrink-0 items-center justify-between gap-2 border-b px-4 py-3 sm:px-6">
         <p className="text-sm font-bold uppercase tracking-[0.2em] text-muted-foreground">
-          Borderlands 4 — База данных
+          BL4 — Лут
         </p>
         <HelpMenu />
       </header>

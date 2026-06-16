@@ -65,6 +65,14 @@ export default async function ItemPage({
       <div className="flex flex-col gap-6 sm:flex-row sm:items-start">
         {/* Оба изображения, как на детальной странице lootlemon */}
         <div className="flex w-full shrink-0 flex-col gap-3 sm:w-72">
+          {item.image ? (
+            // eslint-disable-next-line @next/next/no-img-element -- статика на подпути Pages
+            <img
+              src={assetPath(item.image)}
+              alt={item.name}
+              className="max-h-48 w-auto self-start rounded-xl bg-black/30 object-contain p-3 ring-1 ring-inset ring-white/10"
+            />
+          ) : null}
           {item.imageCard ? (
             // eslint-disable-next-line @next/next/no-img-element -- статика на подпути Pages
             <img
@@ -76,14 +84,6 @@ export default async function ItemPage({
                   ? "ring-legendary/50"
                   : "ring-pearlescent/50",
               )}
-            />
-          ) : null}
-          {item.image ? (
-            // eslint-disable-next-line @next/next/no-img-element -- статика на подпути Pages
-            <img
-              src={assetPath(item.image)}
-              alt={item.name}
-              className="w-full rounded-xl bg-black/30 object-contain p-3 ring-1 ring-inset ring-white/10"
             />
           ) : null}
           {!item.image && !item.imageCard && (
