@@ -138,7 +138,7 @@ export function LootTable({
   onSort: (f: SortField) => void;
 }) {
   return (
-    <div className="h-full overflow-auto rounded-xl border bg-card/40 [&>div]:!overflow-visible">
+    <div className="overflow-x-auto rounded-xl border bg-card/40 [&>div]:!overflow-visible lg:h-full lg:overflow-auto">
       <Table>
         <TableHeader className="bg-card">
           <TableRow className="hover:bg-transparent">

@@ -4,7 +4,7 @@ import { items } from "@/lib/data";
 
 export default function Home() {
   return (
-    <main className="h-dvh overflow-hidden">
+    <main className="lg:h-dvh lg:overflow-hidden">
       <Suspense fallback={null}>
         <LootBrowser allItems={items} />
       </Suspense>

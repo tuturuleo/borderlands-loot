@@ -26,7 +26,7 @@ export function CategoryTabs({
             onClick={() => onChange(cat)}
             aria-pressed={isActive}
             className={cn(
-              "rounded-lg border px-4 py-2 text-sm font-semibold transition-colors",
+              "shrink-0 rounded-lg border px-4 py-2 text-sm font-semibold transition-colors",
               isActive
                 ? "border-border bg-secondary text-foreground shadow-sm"
                 : "border-transparent bg-card/40 text-muted-foreground hover:bg-card hover:text-foreground",

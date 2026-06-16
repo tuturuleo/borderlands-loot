@@ -156,7 +156,7 @@ export function LootBrowser({ allItems }: { allItems: LootItem[] }) {
   const filterCount = activeFilterCount(filters);
 
   return (
-    <div className="mx-auto flex h-full max-w-[1600px] flex-col">
+    <div className="mx-auto flex max-w-[1600px] flex-col lg:h-full">
       {/* Слим-бар: название слева, справа — кнопка-справка */}
       <header className="flex shrink-0 items-center justify-between gap-2 border-b px-4 py-3 sm:px-6">
         <p className="text-sm font-bold uppercase tracking-[0.2em] text-muted-foreground">
@@ -179,11 +179,17 @@ export function LootBrowser({ allItems }: { allItems: LootItem[] }) {
           </div>
         </div>
 
-        <div className="flex items-center justify-center gap-2">
-          {/* Кнопка фильтров для мобильных */}
+        <CategoryTabs
+          active={category}
+          counts={categoryCounts}
+          onChange={onCategoryChange}
+        />
+
+        {/* Кнопка фильтров — под вкладками, только на мобилке */}
+        <div className="flex justify-center lg:hidden">
           <Sheet>
             <SheetTrigger asChild>
-              <Button variant="outline" size="sm" className="lg:hidden">
+              <Button variant="outline" size="sm">
                 <SlidersHorizontal className="size-4" />
                 Фильтры
                 {filterCount > 0 && (
@@ -197,7 +203,7 @@ export function LootBrowser({ allItems }: { allItems: LootItem[] }) {
               <SheetHeader className="sr-only">
                 <SheetTitle>Фильтры</SheetTitle>
               </SheetHeader>
-              <div className="px-4 pb-8">
+              <div className="px-4 pt-10 pb-8">
                 <FilterSidebar
                   items={forCategory}
                   category={category}
@@ -207,17 +213,12 @@ export function LootBrowser({ allItems }: { allItems: LootItem[] }) {
               </div>
             </SheetContent>
           </Sheet>
-
-          <CategoryTabs
-            active={category}
-            counts={categoryCounts}
-            onChange={onCategoryChange}
-          />
         </div>
       </div>
 
-      {/* Контент: фильтры + таблица, каждый со своим внутренним скроллом */}
-      <div className="flex min-h-0 flex-1 gap-4 p-4 sm:px-6">
+      {/* Контент: фильтры + таблица. На десктопе — свой внутренний скролл,
+          на мобилке высота не ограничена и скроллится вся страница. */}
+      <div className="flex gap-4 p-4 sm:px-6 lg:min-h-0 lg:flex-1">
         {/* Сайдбар фильтров — десктоп */}
         <aside className="hidden w-64 shrink-0 lg:block">
           <div className="h-full overflow-y-auto rounded-xl border bg-card/40 p-4">
@@ -241,7 +242,7 @@ export function LootBrowser({ allItems }: { allItems: LootItem[] }) {
               onSort={onSort}
             />
           ) : (
-            <div className="flex h-full items-center justify-center rounded-xl border bg-card/40 text-center text-muted-foreground">
+            <div className="flex items-center justify-center rounded-xl border bg-card/40 py-20 text-center text-muted-foreground lg:h-full lg:py-0">
               Ничего не найдено. Попробуй изменить поиск или фильтры.
             </div>
           )}
