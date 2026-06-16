@@ -21,6 +21,7 @@ import {
 } from "@/components/ui/sheet";
 import { CategoryTabs } from "@/components/category-tabs";
 import { FilterSidebar } from "@/components/filter-sidebar";
+import { HelpMenu } from "@/components/help-menu";
 import {
   LootTable,
   visibleColumns,
@@ -156,11 +157,12 @@ export function LootBrowser({ allItems }: { allItems: LootItem[] }) {
 
   return (
     <div className="mx-auto flex h-full max-w-7xl flex-col">
-      {/* Слим-бар: только название сайта, отделён снизу */}
-      <header className="shrink-0 border-b px-4 py-3 sm:px-6">
+      {/* Слим-бар: название слева, справа — кнопка-справка */}
+      <header className="flex shrink-0 items-center justify-between gap-2 border-b px-4 py-3 sm:px-6">
         <p className="text-sm font-bold uppercase tracking-[0.2em] text-muted-foreground">
           Borderlands 4 — База данных
         </p>
+        <HelpMenu />
       </header>
 
       {/* Контролы: поиск + вкладки */}
