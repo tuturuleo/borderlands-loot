@@ -26,6 +26,12 @@ export interface SourceTag {
   sub?: string;
 }
 
+// Участок текста «Особенности» со своим цветом (CSS hex, напр. «#FFC000»).
+export interface FeatureSegment {
+  text: string;
+  color: string;
+}
+
 export interface LootItem {
   id: string;
   rarity: Rarity;
@@ -45,8 +51,10 @@ export interface LootItem {
   elements: ElementKey[];
   /** Контент: «Base Game» либо название DLC */
   content: string;
-  /** «Особенность» — red text / описание эффекта */
+  /** «Особенность» — описание эффекта (плоский текст) */
   feature: string;
+  /** «Особенность» с цветовой разметкой из таблицы (если есть) */
+  featureRich: FeatureSegment[] | null;
   /** Готовые теги для колонки Sources */
   sources: SourceTag[];
   /** Сырой источник/босс (для фасета) */

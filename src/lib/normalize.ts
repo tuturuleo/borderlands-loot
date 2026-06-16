@@ -156,6 +156,7 @@ export function normalizeRow(row: RawRow): LootItem | null {
     elements: normalizeElements(row["Стихии"] ?? ""),
     content: (row["Content"] ?? "").trim() || "Base Game",
     feature: (row["Особенность"] ?? "").trim(),
+    featureRich: null, // заполняется из XLSX (rich-text) в update-скрипте
     sources: buildSources({
       source,
       region,

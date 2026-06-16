@@ -14,7 +14,7 @@ import Papa from "papaparse";
 import { normalizeRow, type RawRow } from "../src/lib/normalize";
 import type { LootItem } from "../src/lib/types";
 import { fetchImages } from "./fetch-images";
-import { fetchNameLinks } from "./sheet-links";
+import { fetchFeatureRuns, fetchNameLinks } from "./sheet-links";
 
 const SHEET_ID =
   process.env.SHEET_ID || "1ZxbOGnJveB4a5Lju3Xy33_ff1XOSEnujtmgBl4h6zuE";
@@ -75,6 +75,19 @@ async function main() {
   console.log(
     `✓ Ссылок из «Имя»: ${nameLinks.size} (обновлено у ${overridden} предметов)`,
   );
+
+  // Цветовая разметка «Особенности» из rich-text XLSX.
+  console.log("→ Читаю цветную разметку «Особенности» (XLSX)…");
+  const featureRuns = await fetchFeatureRuns();
+  let colored = 0;
+  for (const item of items) {
+    const segments = featureRuns.get(item.id);
+    if (segments) {
+      item.featureRich = segments;
+      colored++;
+    }
+  }
+  console.log(`✓ Цветных «Особенностей»: ${colored}`);
 
   // Сводка по категориям для контроля.
   const byCat = items.reduce<Record<string, number>>((acc, i) => {

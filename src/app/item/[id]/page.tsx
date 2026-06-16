@@ -119,11 +119,19 @@ export default async function ItemPage({
               <p className="text-lg text-muted-foreground">{item.nameEn}</p>
             )}
           </div>
-          {item.feature && (
+          {item.featureRich?.length ? (
+            <p className="rounded-lg bg-secondary/60 p-3 text-sm leading-relaxed">
+              {item.featureRich.map((seg, i) => (
+                <span key={i} style={{ color: seg.color }}>
+                  {seg.text}
+                </span>
+              ))}
+            </p>
+          ) : item.feature ? (
             <p className="rounded-lg bg-secondary/60 p-3 text-sm leading-relaxed">
               {item.feature}
             </p>
-          )}
+          ) : null}
           {item.lootlemonUrl && (
             <Button asChild variant="outline" size="sm">
               <a
