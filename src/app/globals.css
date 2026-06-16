@@ -166,3 +166,42 @@
     background-size: 22px 22px;
   }
 }
+
+/* Компактный скроллбар под тёмную тему (Windows / Chrome / Firefox).
+   На macOS скроллбары оверлейные — правило не мешает. */
+:root {
+  --scrollbar-thumb: oklch(0 0 0 / 22%);
+  --scrollbar-thumb-hover: oklch(0 0 0 / 34%);
+}
+.dark {
+  --scrollbar-thumb: oklch(1 0 0 / 18%);
+  --scrollbar-thumb-hover: oklch(1 0 0 / 30%);
+}
+
+@layer base {
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--scrollbar-thumb) transparent;
+  }
+  /* WebKit (Chrome / Edge) */
+  *::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  *::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-thumb);
+    background-clip: padding-box;
+    border: 2px solid transparent;
+    border-radius: 9999px;
+  }
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: var(--scrollbar-thumb-hover);
+  }
+  *::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+}
